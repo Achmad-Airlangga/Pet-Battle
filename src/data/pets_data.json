@@ -1,0 +1,2936 @@
+{
+  "source": "growtopia_pet_battle_database.xlsx",
+  "sheet": "Database Pet Battle Final",
+  "count": 172,
+  "pets": [
+    {
+      "no": 1,
+      "id": "spiritual_resonator",
+      "element": "Air",
+      "name": "Spiritual Resonator",
+      "visual_description": "Jimat/azimat mistis melayang berwarna ungu berpendar dengan aura roh/hantu.",
+      "ability": "Possession",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Memaksa target menggunakan skill acak ke target yang salah. Jika serangan, menyerang diri sendiri; jika positif/heal, diberikan ke musuh."
+    },
+    {
+      "no": 2,
+      "id": "haunted_pants",
+      "element": "Air",
+      "name": "Haunted Pants",
+      "visual_description": "Celana melayang berwarna hijau/biru pudar transparan seperti hantu/poltergeist.",
+      "ability": "Phantom Pain",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "30",
+        "min": 30,
+        "max": 30
+      },
+      "effect_description": "Memberikan 30 Air Damage instan, lalu target meregenerasi HP 3 HP/detik selama 10 detik. Sangat kuat jika digabung Trauma."
+    },
+    {
+      "no": 3,
+      "id": "chick_leash",
+      "element": "Air",
+      "name": "Chick Leash",
+      "visual_description": "Anak ayam kuning mungil bertali yang berjalan melompat-lompat di samping karakter.",
+      "ability": "Chirp",
+      "is_passive": false,
+      "cooldown_sec": 5,
+      "initial_cooldown_sec": 2.5,
+      "base_damage": {
+        "raw": "9",
+        "min": 9,
+        "max": 9
+      },
+      "effect_description": "Mencicit menggemaskan. Memberikan 9 Air Damage. Serangan ini Unblockable (tidak dapat ditahan perisai/block)."
+    },
+    {
+      "no": 4,
+      "id": "yeonnalligi",
+      "element": "Air",
+      "name": "Yeonnalligi",
+      "visual_description": "Layang-layang tradisional Korea berbentuk burung dengan ekor pita warna-warni.",
+      "ability": "Soaring",
+      "is_passive": true,
+      "cooldown_sec": null,
+      "initial_cooldown_sec": null,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Efek Pasif: Memberikan peluang 25% secara permanen untuk menghindar (dodge) dari semua serangan musuh."
+    },
+    {
+      "no": 5,
+      "id": "lovebird_pendant",
+      "element": "Air",
+      "name": "Lovebird Pendant",
+      "visual_description": "Kalung liontin emas dengan bentuk dua burung cinta sepasang berwarna merah muda.",
+      "ability": "Enthrall",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "10",
+        "min": 10,
+        "max": 10
+      },
+      "effect_description": "Memikat musuh dengan daya tarik cinta. Musuh terkena 10 Air Damage dan dikunci tidak bisa berbuat apa-apa selain swap out selama 6 detik."
+    },
+    {
+      "no": 6,
+      "id": "electro_magnifying_glass",
+      "element": "Air",
+      "name": "Electro Magnifying Glass",
+      "visual_description": "Kaca pembesar futuristik yang memancarkan aliran listrik dan kilatan petir biru.",
+      "ability": "Shock Blast",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "18",
+        "min": 18,
+        "max": 18
+      },
+      "effect_description": "Menembakkan sengatan listrik intens. Memberikan 18 Air Damage dan Stun musuh selama 1 detik."
+    },
+    {
+      "no": 7,
+      "id": "lucky_pendant",
+      "element": "Air",
+      "name": "Lucky Pendant",
+      "visual_description": "Kalung keberuntungan berbentuk daun semanggi empat kelopak (four-leaf clover) hijau.",
+      "ability": "Lucky Strike",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "1 - 40",
+        "min": 1,
+        "max": 40
+      },
+      "effect_description": "Menyerang musuh dengan nilai damage acak yang ditentukan secara acak antara 1 hingga 40 Air Damage."
+    },
+    {
+      "no": 8,
+      "id": "mid_pacific_owl",
+      "element": "Air",
+      "name": "Mid-Pacific Owl",
+      "visual_description": "Burung hantu abu-abu kecokelatan bertanduk bulu yang mengepak melayang.",
+      "ability": "Swoop",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "15",
+        "min": 15,
+        "max": 15
+      },
+      "effect_description": "Menyergap musuh memberikan 15 Air Damage dan secara otomatis memberikan efek Dodge (menghindar) selama 2 detik."
+    },
+    {
+      "no": 9,
+      "id": "zorbnik_leash",
+      "element": "Air",
+      "name": "Zorbnik Leash",
+      "visual_description": "Makhluk alien hijau berkepala satu mata besar bertali yang melayang.",
+      "ability": "Stun Ray",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "10",
+        "min": 10,
+        "max": 10
+      },
+      "effect_description": "Menembakkan sinar laser stun. Memberikan 10 Air Damage dan membuat musuh Stun (tidak dapat bertindak) selama 3 detik."
+    },
+    {
+      "no": 10,
+      "id": "onisim_s_genie",
+      "element": "Air",
+      "name": "Onisim's Genie",
+      "visual_description": "Lampu jin timur tengah berwarna emas dengan sesosok jin biru melayang keluar.",
+      "ability": "Wish",
+      "is_passive": false,
+      "cooldown_sec": 999,
+      "initial_cooldown_sec": 12,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Membangkitkan kembali kawan (partner pet) yang sudah mati/KO dengan HP sebesar 30%! Hanya bisa digunakan 1x per pertarungan."
+    },
+    {
+      "no": 11,
+      "id": "summer_kite",
+      "element": "Air",
+      "name": "Summer Kite",
+      "visual_description": "Layang-layang musim panas berbentuk segitiga cerah berkibar di udara.",
+      "ability": "Windspeed",
+      "is_passive": true,
+      "cooldown_sec": null,
+      "initial_cooldown_sec": null,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Efek Pasif: Mempercepat seluruh cooldown skill pet ini dan kawannya sebesar 2 detik lebih cepat (minimum 1 detik)."
+    },
+    {
+      "no": 12,
+      "id": "cosmic_unicorn_bracelet",
+      "element": "Air",
+      "name": "Cosmic Unicorn Bracelet",
+      "visual_description": "Gelang perak bertema kosmik dengan miniatur tanduk unicorn berkilauan bintang.",
+      "ability": "Cosmic Barrage",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "36",
+        "min": 36,
+        "max": 36
+      },
+      "effect_description": "Hujatan komet dari langit. Memberikan 36 Air Damage. Serangan ini Undodgeable (tidak bisa dihindari)."
+    },
+    {
+      "no": 13,
+      "id": "death_s_scarf",
+      "element": "Air",
+      "name": "Death's Scarf",
+      "visual_description": "Syal hitam berkibar dengan corak gambar tengkorak putih bertema malaikat maut.",
+      "ability": "Doom",
+      "is_passive": false,
+      "cooldown_sec": 30,
+      "initial_cooldown_sec": 12,
+      "base_damage": {
+        "raw": "Instan KO",
+        "min": null,
+        "max": null
+      },
+      "effect_description": "Menandai musuh dengan tanda kematian dalam 20 detik. Musuh langsung KO jika tidak swap out sebelum 20 detik."
+    },
+    {
+      "no": 14,
+      "id": "butterfly_leash",
+      "element": "Air",
+      "name": "Butterfly Leash",
+      "visual_description": "Kupu-kupu merah muda indah berkepak anggun bertali melayang.",
+      "ability": "Acrobatics",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Melakukan gerakan manuver udara acrobatic. Menghindar (Dodge) dari seluruh serangan musuh selama 5 detik penuh."
+    },
+    {
+      "no": 15,
+      "id": "pineapple_kite",
+      "element": "Air",
+      "name": "Pineapple Kite",
+      "visual_description": "Layang-layang berbentuk buah nanas kuning cerah bertali.",
+      "ability": "Pineapple Bomb",
+      "is_passive": false,
+      "cooldown_sec": 9,
+      "initial_cooldown_sec": 4.5,
+      "base_damage": {
+        "raw": "18",
+        "min": 18,
+        "max": 18
+      },
+      "effect_description": "Melempar nanas berbobot berat dari udara. Memberikan 18 Air Damage ke musuh."
+    },
+    {
+      "no": 16,
+      "id": "sonar_bracelet",
+      "element": "Air",
+      "name": "Sonar Bracelet",
+      "visual_description": "Gelang sonar bertema kelelawar dengan pemancar gelombang ultrasonik.",
+      "ability": "Sonic Burst",
+      "is_passive": false,
+      "cooldown_sec": 5,
+      "initial_cooldown_sec": 2.5,
+      "base_damage": {
+        "raw": "9",
+        "min": 9,
+        "max": 9
+      },
+      "effect_description": "Menembakkan gelombang suara sonik. Memberikan 9 Air Damage. Serangan ini Undodgeable."
+    },
+    {
+      "no": 17,
+      "id": "leashed_silkworm_white",
+      "element": "Air",
+      "name": "Leashed Silkworm - White",
+      "visual_description": "Ulat sutra putih mutiara melata anggun di permukaan tanah.",
+      "ability": "Psyblade",
+      "is_passive": false,
+      "cooldown_sec": 5,
+      "initial_cooldown_sec": 2.5,
+      "base_damage": {
+        "raw": "12",
+        "min": 12,
+        "max": 12
+      },
+      "effect_description": "Menembakkan pedang pikiran. Memberikan 12 Air Damage, namun memberikan efek recoil 4 damage ke diri sendiri."
+    },
+    {
+      "no": 18,
+      "id": "leashed_silkworm_purple",
+      "element": "Air",
+      "name": "Leashed Silkworm - Purple",
+      "visual_description": "Ulat sutra ungu berkilau melata cepat di permukaan.",
+      "ability": "Face Slap",
+      "is_passive": false,
+      "cooldown_sec": 5,
+      "initial_cooldown_sec": 2.5,
+      "base_damage": {
+        "raw": "12",
+        "min": 12,
+        "max": 12
+      },
+      "effect_description": "Menampar wajah musuh sebesar 12 Air Damage. Membakar amarah musuh (+25% damage boost selama 10s, stack 20x)."
+    },
+    {
+      "no": 19,
+      "id": "thinking_cap",
+      "element": "Air",
+      "name": "Thinking Cap",
+      "visual_description": "Topi berbentuk otak futuristik dengan aura psikis berkilat.",
+      "ability": "Mind Swap",
+      "is_passive": false,
+      "cooldown_sec": 30,
+      "initial_cooldown_sec": 12,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Mengambil semua efek status positif milik musuh dan memindahkan semua efek status negatif diri sendiri ke musuh."
+    },
+    {
+      "no": 20,
+      "id": "eye_of_growganoth",
+      "element": "Air",
+      "name": "Eye Of Growganoth",
+      "visual_description": "Mata merah raksasa menyeramkan khas Growganoth melayang menatap tajam.",
+      "ability": "Gift of Growganoth",
+      "is_passive": true,
+      "cooldown_sec": null,
+      "initial_cooldown_sec": null,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Efek Pasif: Menyembuhkan (Heal) HP pet ini sebesar 7 HP setiap 5 detik saat sedang tidak aktif bertarung (di cadangan)."
+    },
+    {
+      "no": 21,
+      "id": "betty_bluetooth_doll",
+      "element": "Air",
+      "name": "Betty Bluetooth Doll",
+      "visual_description": "Boneka robot Bluetooth biru kecil dengan antena pemancar.",
+      "ability": "Static Charge",
+      "is_passive": false,
+      "cooldown_sec": 3,
+      "initial_cooldown_sec": 1.5,
+      "base_damage": {
+        "raw": "5 / charge",
+        "min": 5,
+        "max": 5
+      },
+      "effect_description": "Setiap kali menerima damage, menyimpan 1 charge (max 10). Skill ini melepas semua charge sekaligus (5 damage/charge)."
+    },
+    {
+      "no": 22,
+      "id": "grey_pet_tyrannosaurus",
+      "element": "Air",
+      "name": "Grey Pet Tyrannosaurus",
+      "visual_description": "Dinosaurus T-Rex abu-abu gagah dengan rahang tajam.",
+      "ability": "Crushing Jaws A",
+      "is_passive": false,
+      "cooldown_sec": 16,
+      "initial_cooldown_sec": 8,
+      "base_damage": {
+        "raw": "29",
+        "min": 29,
+        "max": 29
+      },
+      "effect_description": "Gigitan meremukkan. Memberikan 29 Air Damage dan memberikan efek Trauma (mencegah heal musuh) selama 3 detik."
+    },
+    {
+      "no": 23,
+      "id": "grey_pet_pteranus_rex",
+      "element": "Air",
+      "name": "Grey Pet Pteranus Rex",
+      "visual_description": "Hibrida Pteranodon & T-Rex abu-abu bersayap dengan rahang perkasa.",
+      "ability": "Precision Crush A",
+      "is_passive": false,
+      "cooldown_sec": 19,
+      "initial_cooldown_sec": 9.5,
+      "base_damage": {
+        "raw": "25",
+        "min": 25,
+        "max": 25
+      },
+      "effect_description": "Jika musuh mencoba Dodge/Block, damage naik +10%. Deals 25 Air Damage. Unblockable & Undodgeable."
+    },
+    {
+      "no": 24,
+      "id": "grey_pet_tricerus_rex",
+      "element": "Air",
+      "name": "Grey Pet Tricerus Rex",
+      "visual_description": "Hibrida Triceratops & T-Rex abu-abu bertanduk dan berahang kuat.",
+      "ability": "Defensive Bite A",
+      "is_passive": false,
+      "cooldown_sec": 18,
+      "initial_cooldown_sec": 9,
+      "base_damage": {
+        "raw": "22",
+        "min": 22,
+        "max": 22
+      },
+      "effect_description": "Menggigit musuh sebesar 22 Air Damage lalu menahan/mengunci serangan (Block) selama 2 detik."
+    },
+    {
+      "no": 25,
+      "id": "grey_pet_apatosaurus",
+      "element": "Air",
+      "name": "Grey Pet Apatosaurus",
+      "visual_description": "Dinosaurus leher panjang Apatosaurus abu-abu berukuran tinggi.",
+      "ability": "Dino Slam A",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "15",
+        "min": 15,
+        "max": 15
+      },
+      "effect_description": "Terjangan dinosaurus. Memberikan 15 Air Damage. Melawan elemen Water, memberikan bonus damage +100%."
+    },
+    {
+      "no": 26,
+      "id": "grey_pet_tyranopatos",
+      "element": "Air",
+      "name": "Grey Pet Tyranopatos",
+      "visual_description": "Hibrida T-Rex & Apatosaurus abu-abu bertubuh tegap leher panjang.",
+      "ability": "Grinding Jaws A",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "3",
+        "min": 3,
+        "max": 3
+      },
+      "effect_description": "Mengunyah musuh. Memberikan 3 Air Damage dan mengunci pemulihan HP musuh (Trauma) selama 30 detik penuh."
+    },
+    {
+      "no": 27,
+      "id": "grey_pet_tripatosaurus",
+      "element": "Air",
+      "name": "Grey Pet Tripatosaurus",
+      "visual_description": "Hibrida Triceratops & Apatosaurus abu-abu bertanduk leher panjang.",
+      "ability": "Defensive Bash A",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "10",
+        "min": 10,
+        "max": 10
+      },
+      "effect_description": "Menundukkan kepala menyeruduk sebesar 10 Air Damage lalu memasang perisai pertahanan (Block) selama 7 detik."
+    },
+    {
+      "no": 28,
+      "id": "grey_pet_pterosaurus",
+      "element": "Air",
+      "name": "Grey Pet Pterosaurus",
+      "visual_description": "Dinosaurus Pterodactyl abu-abu bersayap lebar.",
+      "ability": "Critical Strike A",
+      "is_passive": false,
+      "cooldown_sec": 15,
+      "initial_cooldown_sec": 7.5,
+      "base_damage": {
+        "raw": "17",
+        "min": 17,
+        "max": 17
+      },
+      "effect_description": "Jika musuh mencoba Dodge/Block, memberikan ekstra damage +50%. Deals 17 Air Damage. Unblockable & Undodgeable."
+    },
+    {
+      "no": 29,
+      "id": "grey_pet_triceratops",
+      "element": "Air",
+      "name": "Grey Pet Triceratops",
+      "visual_description": "Dinosaurus Triceratops abu-abu bertanduk tiga keras.",
+      "ability": "Defensive Gore A",
+      "is_passive": false,
+      "cooldown_sec": 13,
+      "initial_cooldown_sec": 6.5,
+      "base_damage": {
+        "raw": "16",
+        "min": 16,
+        "max": 16
+      },
+      "effect_description": "Menanduk musuh sebesar 16 Air Damage lalu menahan serangan musuh (Block) selama 4 detik."
+    },
+    {
+      "no": 30,
+      "id": "grey_pet_apatos_rex",
+      "element": "Air",
+      "name": "Grey Pet Apatos Rex",
+      "visual_description": "Hibrida Apatosaurus & T-Rex abu-abu berotot.",
+      "ability": "Dino Chomp A",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "18",
+        "min": 18,
+        "max": 18
+      },
+      "effect_description": "Gigitan dinosaurus. Memberikan 18 Air Damage. Jika musuh berelemen Water, mendapatkan bonus damage +25%."
+    },
+    {
+      "no": 31,
+      "id": "grey_pet_apatoceratops",
+      "element": "Air",
+      "name": "Grey Pet Apatoceratops",
+      "visual_description": "Hibrida Apatosaurus & Triceratops abu-abu bertanduk.",
+      "ability": "Dino Charge A",
+      "is_passive": false,
+      "cooldown_sec": 8,
+      "initial_cooldown_sec": 4,
+      "base_damage": {
+        "raw": "14",
+        "min": 14,
+        "max": 14
+      },
+      "effect_description": "Menyeruduk musuh sebesar 14 Air Damage. Jika melawan musuh elemen Water, damage bertambah +60%."
+    },
+    {
+      "no": 32,
+      "id": "grey_pet_pteratops",
+      "element": "Air",
+      "name": "Grey Pet Pteratops",
+      "visual_description": "Hibrida Pteranodon & Triceratops abu-abu bertanduk bersayap.",
+      "ability": "Precision Attack A",
+      "is_passive": false,
+      "cooldown_sec": 9,
+      "initial_cooldown_sec": 4.5,
+      "base_damage": {
+        "raw": "11",
+        "min": 11,
+        "max": 11
+      },
+      "effect_description": "Jika musuh mencoba Dodge/Block, damage bertambah +17%. Deals 11 Air Damage. Unblockable & Undodgeable."
+    },
+    {
+      "no": 33,
+      "id": "grey_pet_pteranodon",
+      "element": "Air",
+      "name": "Grey Pet Pteranodon",
+      "visual_description": "Dinosaurus Pteranodon abu-abu melayang mengepakkan sayap.",
+      "ability": "Precision Strike A",
+      "is_passive": false,
+      "cooldown_sec": 5,
+      "initial_cooldown_sec": 2.5,
+      "base_damage": {
+        "raw": "7",
+        "min": 7,
+        "max": 7
+      },
+      "effect_description": "Jika musuh mencoba Dodge/Block, damage bertambah +25%. Deals 7 Air Damage. Unblockable & Undodgeable."
+    },
+    {
+      "no": 34,
+      "id": "grey_pet_tyranotops",
+      "element": "Air",
+      "name": "Grey Pet Tyranotops",
+      "visual_description": "Hibrida T-Rex & Triceratops abu-abu bertanduk dan berparuh tajam.",
+      "ability": "Crushing Beak A",
+      "is_passive": false,
+      "cooldown_sec": 13,
+      "initial_cooldown_sec": 6.5,
+      "base_damage": {
+        "raw": "19",
+        "min": 19,
+        "max": 19
+      },
+      "effect_description": "Patukan meremukkan sebesar 19 Air Damage dan memberikan efek Trauma (mencegah heal) selama 7 detik."
+    },
+    {
+      "no": 35,
+      "id": "grey_pet_tyranodon",
+      "element": "Air",
+      "name": "Grey Pet Tyranodon",
+      "visual_description": "Hibrida T-Rex & Pteranodon abu-abu bersayap rahang bergigi.",
+      "ability": "Piercing Jaws A",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "15",
+        "min": 15,
+        "max": 15
+      },
+      "effect_description": "Gigitan menembus. Memberikan 15 Air Damage dan mencegah target melakukan heal (Trauma) selama 4 detik."
+    },
+    {
+      "no": 36,
+      "id": "grey_pet_apatodon",
+      "element": "Air",
+      "name": "Grey Pet Apatodon",
+      "visual_description": "Hibrida Apatosaurus & Pteranodon abu-abu melayang.",
+      "ability": "Dino Dive A",
+      "is_passive": false,
+      "cooldown_sec": 6,
+      "initial_cooldown_sec": 3,
+      "base_damage": {
+        "raw": "10",
+        "min": 10,
+        "max": 10
+      },
+      "effect_description": "Menukik tajam memberikan 10 Air Damage. Melawan musuh berelemen Water, memberikan ekstra damage +50%."
+    },
+    {
+      "no": 37,
+      "id": "grey_pet_triceradon",
+      "element": "Air",
+      "name": "Grey Pet Triceradon",
+      "visual_description": "Hibrida Triceratops & Pteranodon abu-abu bertanduk.",
+      "ability": "Defensive Flurry A",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "12",
+        "min": 12,
+        "max": 12
+      },
+      "effect_description": "Menyerang beruntun sebesar 12 Air Damage lalu memblokir semua serangan (Block) selama 2 detik."
+    },
+    {
+      "no": 38,
+      "id": "rainbow_kite",
+      "element": "Air",
+      "name": "Rainbow Kite",
+      "visual_description": "Layang-layang pelangi melayang memancarkan spektrum warna cerah.",
+      "ability": "Taste The Rainbow",
+      "is_passive": false,
+      "cooldown_sec": 8,
+      "initial_cooldown_sec": 4,
+      "base_damage": {
+        "raw": "16",
+        "min": 16,
+        "max": 16
+      },
+      "effect_description": "Menembakkan sinar pelangi sebesar 16 Air Damage dengan tipe elemen acak pada setiap tembakan."
+    },
+    {
+      "no": 39,
+      "id": "haunted_synthoid",
+      "element": "Air",
+      "name": "Haunted Synthoid",
+      "visual_description": "Robot android hantu transparan bercahaya neon redup.",
+      "ability": "Draining Beam",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "5",
+        "min": 5,
+        "max": 5
+      },
+      "effect_description": "Sinar penyerap energi. Deals 5 Air Damage dan menambah waktu Cooldown seluruh skill musuh yang sedang recharge sebesar +3 detik."
+    },
+    {
+      "no": 40,
+      "id": "ladybug_leaf",
+      "element": "Air",
+      "name": "Ladybug Leaf",
+      "visual_description": "Kumbang kecil merah bintik hitam menempel di daun hijau melayang.",
+      "ability": "Exoskeleton",
+      "is_passive": true,
+      "cooldown_sec": null,
+      "initial_cooldown_sec": null,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Efek Pasif: Mempercepat durasi seluruh efek status negatif (debuff) yang diterima pet ini sebesar 2 detik lebih singkat."
+    },
+    {
+      "no": 41,
+      "id": "red_floaty_balloon",
+      "element": "Air",
+      "name": "Red Floaty Balloon",
+      "visual_description": "Balon gas merah melayang tinggi bertali.",
+      "ability": "Floaty Bomb",
+      "is_passive": false,
+      "cooldown_sec": 9,
+      "initial_cooldown_sec": 4.5,
+      "base_damage": {
+        "raw": "18",
+        "min": 18,
+        "max": 18
+      },
+      "effect_description": "Melempar balon berat bertekanan udara. Memberikan 18 Air Damage ke lawan."
+    },
+    {
+      "no": 42,
+      "id": "blue_floaty_balloon",
+      "element": "Air",
+      "name": "Blue Floaty Balloon",
+      "visual_description": "Balon gas biru melayang membal-membal.",
+      "ability": "Bouncy Barrier",
+      "is_passive": false,
+      "cooldown_sec": 11,
+      "initial_cooldown_sec": 5.5,
+      "base_damage": {
+        "raw": "25",
+        "min": 25,
+        "max": 25
+      },
+      "effect_description": "Membuat perisai membal. Jika pet diserang dalam 4 detik setelah skill diaktifkan, memantulkan 25 Air Damage ke penyerang."
+    },
+    {
+      "no": 43,
+      "id": "green_floaty_balloon",
+      "element": "Air",
+      "name": "Green Floaty Balloon",
+      "visual_description": "Balon gas hijau terang berisikan udara penyembuh.",
+      "ability": "Pumped Up",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Memompa udara penyembuh ke dalam tubuh pet. Menyembuhkan (Heal) HP sebesar 30 HP."
+    },
+    {
+      "no": 44,
+      "id": "playful_wind_sprite",
+      "element": "Air",
+      "name": "Playful Wind Sprite",
+      "visual_description": "Peri angin kecil transparan yang menari melayang riang.",
+      "ability": "Playful Wind",
+      "is_passive": false,
+      "cooldown_sec": 4,
+      "initial_cooldown_sec": 2,
+      "base_damage": {
+        "raw": "6",
+        "min": 6,
+        "max": 6
+      },
+      "effect_description": "Tiupan angin riang. Deals 6 Air Damage dan memberikan peluang 15% untuk melakukan Double Damage selama 8 detik."
+    },
+    {
+      "no": 45,
+      "id": "cloud_rabbit",
+      "element": "Air",
+      "name": "Cloud Rabbit",
+      "visual_description": "Kelinci awan putih lembut melayang seperti gumpalan kapas.",
+      "ability": "Self Sacrifice",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Jika diserang dalam 4 detik, hindari sepenuhnya lalu otomatis swap out. Tinggalkan asap yang memberi Dodge kawannya selama 4 detik."
+    },
+    {
+      "no": 46,
+      "id": "discoball_companion",
+      "element": "Air",
+      "name": "Discoball Companion",
+      "visual_description": "Bola disko perak berpendar memancarkan sorotan cahaya warna-warni.",
+      "ability": "Just Dance!",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "20",
+        "min": 20,
+        "max": 20
+      },
+      "effect_description": "Menginfeksi musuh untuk menari selama 4 detik. Musuh hanya bisa swap dan menerima 5 Air Damage/detik (total 20 damage)."
+    },
+    {
+      "no": 47,
+      "id": "flying_bell",
+      "element": "Air",
+      "name": "Flying Bell",
+      "visual_description": "Lonceng emas melayang yang berdentang keras.",
+      "ability": "Sound Blast!",
+      "is_passive": false,
+      "cooldown_sec": 5,
+      "initial_cooldown_sec": 2.5,
+      "base_damage": {
+        "raw": "9",
+        "min": 9,
+        "max": 9
+      },
+      "effect_description": "Gelombang suara lonceng nyaring. Memberikan 9 Air Damage, Undodgeable, dan memberikan efek Stun selama 1 detik."
+    },
+    {
+      "no": 48,
+      "id": "pet_hatchley",
+      "element": "Air",
+      "name": "Pet Hatchley",
+      "visual_description": "Burung unik berselimut cangkang telur menetas yang bernyanyi.",
+      "ability": "Musically Stunned!",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "10",
+        "min": 10,
+        "max": 10
+      },
+      "effect_description": "Bernyanyi merdu memberikan 10 Air Damage dan mengunci (Stun) musuh tidak bisa bertindak selama 8 hingga 10 detik."
+    },
+    {
+      "no": 49,
+      "id": "pineapple_blump_pet",
+      "element": "Air",
+      "name": "Pineapple Blump Pet",
+      "visual_description": "Makhluk buah nanas menggelembung bertanduk duri.",
+      "ability": "Spikey Shield",
+      "is_passive": false,
+      "cooldown_sec": 15,
+      "initial_cooldown_sec": 7.5,
+      "base_damage": {
+        "raw": "20",
+        "min": 20,
+        "max": 20
+      },
+      "effect_description": "Memasang perisai duri nanas. Jika diserang dalam durasi 8 detik, membalas memberikan 20 Air Damage ke penyerang."
+    },
+    {
+      "no": 50,
+      "id": "party_fowl",
+      "element": "Air",
+      "name": "Party Fowl",
+      "visual_description": "Burung ayam jantan bertopi pesta dan kacamata hitam keren.",
+      "ability": "Party Foul",
+      "is_passive": false,
+      "cooldown_sec": 5,
+      "initial_cooldown_sec": 2.5,
+      "base_damage": {
+        "raw": "5",
+        "min": 5,
+        "max": 5
+      },
+      "effect_description": "Kerusuhan pesta. Memberikan 5 Air Damage cepat ke target."
+    },
+    {
+      "no": 51,
+      "id": "radioactive_synthoid",
+      "element": "Air",
+      "name": "Radioactive Synthoid",
+      "visual_description": "Robot android radioaktif hijau neon berpendar aura beracun.",
+      "ability": "Radiation Beam",
+      "is_passive": false,
+      "cooldown_sec": 13,
+      "initial_cooldown_sec": 6.5,
+      "base_damage": {
+        "raw": "30",
+        "min": 30,
+        "max": 30
+      },
+      "effect_description": "Menembakkan sinar radiasi intens sebesar 30 Air Damage."
+    },
+    {
+      "no": 52,
+      "id": "passionate_painter_paintbrush",
+      "element": "Air",
+      "name": "Passionate Painter Paintbrush",
+      "visual_description": "Kuas lukis raksasa berpendar dengan cipratan cat warna-warni.",
+      "ability": "Hit by Inspiration",
+      "is_passive": false,
+      "cooldown_sec": 15,
+      "initial_cooldown_sec": 7.5,
+      "base_damage": {
+        "raw": "20",
+        "min": 20,
+        "max": 20
+      },
+      "effect_description": "Cipratan inspirasi seni. Deals 20 Air Damage dan memberikan buff acak."
+    },
+    {
+      "no": 53,
+      "id": "lantern_s_chronoreaper",
+      "element": "Air",
+      "name": "Lantern's ChronoReaper",
+      "visual_description": "Malaikat maut membawa lentera waktu dan sabit bayangan.",
+      "ability": "To The Shadow Realm!",
+      "is_passive": false,
+      "cooldown_sec": 30,
+      "initial_cooldown_sec": 15,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Melempar musuh ke alam bayangan. Mengunci musuh tidak bisa melakukan serangan selama durasi tertentu."
+    },
+    {
+      "no": 54,
+      "id": "puppy_leash",
+      "element": "Earth",
+      "name": "Puppy Leash",
+      "visual_description": "Anak anjing cokelat lucu bertali berjalan ceria di permukaan tanah.",
+      "ability": "Pounce",
+      "is_passive": false,
+      "cooldown_sec": 4,
+      "initial_cooldown_sec": 2,
+      "base_damage": {
+        "raw": "9",
+        "min": 9,
+        "max": 9
+      },
+      "effect_description": "Melompat dan menerjang musuh secara cepat. Memberikan 9 Earth Damage. Cooldown sangat singkat."
+    },
+    {
+      "no": 55,
+      "id": "piglet_leash",
+      "element": "Earth",
+      "name": "Piglet Leash",
+      "visual_description": "Anak babi merah muda mungil bertali yang berjalan gembira.",
+      "ability": "Wallow",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Berguling-guling di dalam lumpur segar. Menyembuhkan (Heal) HP pet sendiri sebesar 20 HP."
+    },
+    {
+      "no": 56,
+      "id": "puddy_leash",
+      "element": "Earth",
+      "name": "Puddy Leash",
+      "visual_description": "Kucing kecil berbulu halus bertali yang berjalan mengendus.",
+      "ability": "Hairball",
+      "is_passive": false,
+      "cooldown_sec": 5,
+      "initial_cooldown_sec": 2.5,
+      "base_damage": {
+        "raw": "10",
+        "min": 10,
+        "max": 10
+      },
+      "effect_description": "Muntah dan melempar gumpalan bulu (hairball) menjijikkan ke lawan sebesar 10 Earth Damage."
+    },
+    {
+      "no": 57,
+      "id": "tumbleweed_attractor",
+      "element": "Earth",
+      "name": "Tumbleweed Attractor",
+      "visual_description": "Semak gulung kaktus berduri yang berputar mengelilingi karakter.",
+      "ability": "Needles",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "5",
+        "min": 5,
+        "max": 5
+      },
+      "effect_description": "Memasang pelindung duri selama 15 detik. Setiap kali pet diserang, membalas memberikan 5 Earth Damage ke penyerang."
+    },
+    {
+      "no": 58,
+      "id": "muddy_pants",
+      "element": "Earth",
+      "name": "Muddy Pants",
+      "visual_description": "Celana panjang cokelat kusam berlumuran lumpur kotor.",
+      "ability": "Mud Glob",
+      "is_passive": false,
+      "cooldown_sec": 40,
+      "initial_cooldown_sec": 12,
+      "base_damage": {
+        "raw": "20",
+        "min": 20,
+        "max": 20
+      },
+      "effect_description": "Melempar gumpalan lumpur besar sebesar 20 Earth Damage. Mengubah kecepatan Cooldown musuh menjadi 2x lebih lambat selama 10s."
+    },
+    {
+      "no": 59,
+      "id": "unicorn_garland",
+      "element": "Earth",
+      "name": "Unicorn Garland",
+      "visual_description": "Kalung hiasan bertema unicorn magis bersinar keemasan.",
+      "ability": "Rainbow Beam",
+      "is_passive": false,
+      "cooldown_sec": 6,
+      "initial_cooldown_sec": 3,
+      "base_damage": {
+        "raw": "11",
+        "min": 11,
+        "max": 11
+      },
+      "effect_description": "Menembakkan berkas sinar warna-warni mistis sebesar 11 Earth Damage. Serangan ini Unblockable."
+    },
+    {
+      "no": 60,
+      "id": "mini_mammoth_leash",
+      "element": "Earth",
+      "name": "Mini Mammoth Leash",
+      "visual_description": "Mammoth purba cokelat berbulu lebat dengan gading melengkung bertali.",
+      "ability": "Mammoth Heart",
+      "is_passive": true,
+      "cooldown_sec": null,
+      "initial_cooldown_sec": null,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Efek Pasif: Meningkatkan kapasitas Maximum HP pet ini sebesar +30% lebih tinggi secara permanen."
+    },
+    {
+      "no": 61,
+      "id": "wolf_tamer_s_glove",
+      "element": "Earth",
+      "name": "Wolf Tamer's Glove",
+      "visual_description": "Sarung tangan kulit pengendali serigala bertatahkan besi.",
+      "ability": "Howl",
+      "is_passive": false,
+      "cooldown_sec": 30,
+      "initial_cooldown_sec": 15,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Auman serigala pemburu. Meningkatkan seluruh Damage serangan pet sebesar +25% selama 30 detik."
+    },
+    {
+      "no": 62,
+      "id": "leashed_silkworm_grey",
+      "element": "Earth",
+      "name": "Leashed Silkworm - Grey",
+      "visual_description": "Ulat sutra abu-abu berbatu melata perlahan di tanah.",
+      "ability": "Stoneform",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Mengubah tubuh menjadi batu keras. Memblokir seluruh serangan musuh (Block) selama 5 detik penuh."
+    },
+    {
+      "no": 63,
+      "id": "leashed_silkworm_green",
+      "element": "Earth",
+      "name": "Leashed Silkworm - Green",
+      "visual_description": "Ulat sutra hijau daun melata di tanah.",
+      "ability": "Toxic Cloud",
+      "is_passive": false,
+      "cooldown_sec": 60,
+      "initial_cooldown_sec": 12,
+      "base_damage": {
+        "raw": "88",
+        "min": 88,
+        "max": 88
+      },
+      "effect_description": "Skill Cuaca (Weather). Menyebar racun di arena. Semua pet terkena 4 Earth Damage tiap 5s selama 60s (Total max 88 dmg)."
+    },
+    {
+      "no": 64,
+      "id": "calf_leash",
+      "element": "Earth",
+      "name": "Calf Leash",
+      "visual_description": "Anak sapi cokelat bintik putih bertali berjalan pelan.",
+      "ability": "Trample",
+      "is_passive": false,
+      "cooldown_sec": 7,
+      "initial_cooldown_sec": 3.5,
+      "base_damage": {
+        "raw": "10",
+        "min": 10,
+        "max": 10
+      },
+      "effect_description": "Menerjang dan menginjak musuh sebesar 10 Earth Damage dan memaksa musuh melakukan swap out (Forced Swap)."
+    },
+    {
+      "no": 65,
+      "id": "moose_cap",
+      "element": "Earth",
+      "name": "Moose Cap",
+      "visual_description": "Topi berbentuk kepala tanduk rusa besar yang megah.",
+      "ability": "Antler Bash",
+      "is_passive": false,
+      "cooldown_sec": 12,
+      "initial_cooldown_sec": 5.5,
+      "base_damage": {
+        "raw": "22",
+        "min": 22,
+        "max": 22
+      },
+      "effect_description": "Menyeruduk menghantam musuh dengan tanduk tanduk rusa besar. Memberikan 22 Earth Damage. Unblockable."
+    },
+    {
+      "no": 66,
+      "id": "baby_bunny",
+      "element": "Earth",
+      "name": "Baby Bunny",
+      "visual_description": "Kelinci kecil imut berbulu lembut melompat-lompat.",
+      "ability": "Hop",
+      "is_passive": false,
+      "cooldown_sec": 3,
+      "initial_cooldown_sec": 1.5,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Melompat riang. Skill kosmetik animasi yang membuat pet melompat (tidak memberikan damage)."
+    },
+    {
+      "no": 67,
+      "id": "mickeymay_leash",
+      "element": "Earth",
+      "name": "MickeyMay Leash",
+      "visual_description": "Makhluk imut abu-abu bertali yang bersembunyi ketakutan.",
+      "ability": "Cower",
+      "is_passive": false,
+      "cooldown_sec": 15,
+      "initial_cooldown_sec": 7.5,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Kau memeluk tubuh ketakutan. Memblokir/menahan seluruh serangan musuh (Block) selama 7 detik penuh."
+    },
+    {
+      "no": 68,
+      "id": "mini_growtopian",
+      "element": "Earth",
+      "name": "Mini Growtopian",
+      "visual_description": "Karakter miniatur manusia avatar Growtopia berjalan di samping.",
+      "ability": "Punch, Build, Grow",
+      "is_passive": false,
+      "cooldown_sec": 6,
+      "initial_cooldown_sec": 3,
+      "base_damage": {
+        "raw": "8+",
+        "min": 8,
+        "max": null
+      },
+      "effect_description": "Siklus berantai: 1. Punch (8 Earth Dmg), 2. Build (1s Block), 3. Grow (+4 dmg pada Punch & +1s Block pada Build, stack 5x)."
+    },
+    {
+      "no": 69,
+      "id": "pet_bunny",
+      "element": "Earth",
+      "name": "Pet Bunny",
+      "visual_description": "Kelinci putih dengan telinga tegak dan mata merah.",
+      "ability": "Big Sharp Pointy Teeth",
+      "is_passive": false,
+      "cooldown_sec": 15,
+      "initial_cooldown_sec": 7.5,
+      "base_damage": {
+        "raw": "30",
+        "min": 30,
+        "max": 30
+      },
+      "effect_description": "Menggigit musuh secara buas dan ganas. Memberikan 30 Earth Damage instan. Salah satu skill damage murni tertinggi."
+    },
+    {
+      "no": 70,
+      "id": "pet_burrito",
+      "element": "Earth",
+      "name": "Pet Burrito",
+      "visual_description": "Keledai (donkey) abu-abu kecil dengan pelana kayu di punggung.",
+      "ability": "Stubborn",
+      "is_passive": true,
+      "cooldown_sec": null,
+      "initial_cooldown_sec": null,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Efek Pasif: Sifat keras kepala luar biasa. Memotong dan mengurangi semua damage yang diterima sebesar 25%."
+    },
+    {
+      "no": 71,
+      "id": "pet_leprechaun",
+      "element": "Earth",
+      "name": "Pet Leprechaun",
+      "visual_description": "Peri kerdil hijau leprechaun bertopi membawa koin emas.",
+      "ability": "Get Lucky",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Mantra keberuntungan leprechaun. Memberikan peluang 25% untuk menghasilkan Double Damage selama 10 detik."
+    },
+    {
+      "no": 72,
+      "id": "lil_sheepers",
+      "element": "Earth",
+      "name": "Lil' Sheepers",
+      "visual_description": "Domba putih berbulu tebal mengembang bertali.",
+      "ability": "Count Sheep",
+      "is_passive": false,
+      "cooldown_sec": 40,
+      "initial_cooldown_sec": 20,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Skill Cuaca (Weather). Menghipnotis seluruh pet di arena hingga tertidur (Stun/Sleep) selama 8 detik penuh."
+    },
+    {
+      "no": 73,
+      "id": "rhino_horn",
+      "element": "Earth",
+      "name": "Rhino Horn",
+      "visual_description": "Cula badak berbatu keras yang menancap tajam.",
+      "ability": "Charge",
+      "is_passive": false,
+      "cooldown_sec": 6,
+      "initial_cooldown_sec": 3,
+      "base_damage": {
+        "raw": "16",
+        "min": 16,
+        "max": 16
+      },
+      "effect_description": "Menyeruduk musuh dengan cula kuat sebesar 16 Earth Damage, namun memberikan efek Stun pada diri sendiri selama 3 detik."
+    },
+    {
+      "no": 74,
+      "id": "flowersaurus_rex",
+      "element": "Earth",
+      "name": "Flowersaurus Rex",
+      "visual_description": "Dinosaurus T-Rex hijau yang ditumbuhi bunga mekar di punggungnya.",
+      "ability": "Pollen Barrage",
+      "is_passive": false,
+      "cooldown_sec": 12,
+      "initial_cooldown_sec": 6,
+      "base_damage": {
+        "raw": "15+",
+        "min": 15,
+        "max": null
+      },
+      "effect_description": "Semburan serbuk sari. Base 15 Earth Damage. Mengonsumsi buff positif diri sendiri untuk menambah +15 damage per buff."
+    },
+    {
+      "no": 75,
+      "id": "brown_pet_tyrannosaurus",
+      "element": "Earth",
+      "name": "Brown Pet Tyrannosaurus",
+      "visual_description": "Dinosaurus T-Rex cokelat tanah berotot.",
+      "ability": "Crushing Jaws E",
+      "is_passive": false,
+      "cooldown_sec": 16,
+      "initial_cooldown_sec": 8,
+      "base_damage": {
+        "raw": "29",
+        "min": 29,
+        "max": 29
+      },
+      "effect_description": "Gigitan meremukkan. Memberikan 29 Earth Damage dan memberikan efek Trauma (mencegah heal) selama 3 detik."
+    },
+    {
+      "no": 76,
+      "id": "brown_pet_apatos_rex",
+      "element": "Earth",
+      "name": "Brown Pet Apatos Rex",
+      "visual_description": "Hibrida Apatosaurus & T-Rex cokelat tanah.",
+      "ability": "Dino Chomp E",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "18",
+        "min": 18,
+        "max": 18
+      },
+      "effect_description": "Gigitan dinosaurus. Memberikan 18 Earth Damage. Jika melawan musuh elemen Air, mendapat ekstra damage +25%."
+    },
+    {
+      "no": 77,
+      "id": "brown_pet_pteranus_rex",
+      "element": "Earth",
+      "name": "Brown Pet Pteranus Rex",
+      "visual_description": "Hibrida Pteranodon & T-Rex cokelat tanah bersayap.",
+      "ability": "Precision Crush E",
+      "is_passive": false,
+      "cooldown_sec": 19,
+      "initial_cooldown_sec": 9.5,
+      "base_damage": {
+        "raw": "25",
+        "min": 25,
+        "max": 25
+      },
+      "effect_description": "Jika musuh mencoba Dodge/Block, damage bertambah +10%. Deals 25 Earth Damage. Unblockable & Undodgeable."
+    },
+    {
+      "no": 78,
+      "id": "brown_pet_tricerus_rex",
+      "element": "Earth",
+      "name": "Brown Pet Tricerus Rex",
+      "visual_description": "Hibrida Triceratops & T-Rex cokelat tanah bertanduk.",
+      "ability": "Defensive Bite E",
+      "is_passive": false,
+      "cooldown_sec": 18,
+      "initial_cooldown_sec": 9,
+      "base_damage": {
+        "raw": "22",
+        "min": 22,
+        "max": 22
+      },
+      "effect_description": "Menggigit musuh sebesar 22 Earth Damage lalu memblokir serangan musuh (Block) selama 2 detik."
+    },
+    {
+      "no": 79,
+      "id": "brown_pet_apatosaurus",
+      "element": "Earth",
+      "name": "Brown Pet Apatosaurus",
+      "visual_description": "Dinosaurus Apatosaurus cokelat tanah berleher panjang.",
+      "ability": "Dino Slam E",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "15",
+        "min": 15,
+        "max": 15
+      },
+      "effect_description": "Terjangan dinosaurus. Memberikan 15 Earth Damage. Jika melawan musuh elemen Air, bonus damage +100%."
+    },
+    {
+      "no": 80,
+      "id": "brown_pet_tyranopatos",
+      "element": "Earth",
+      "name": "Brown Pet Tyranopatos",
+      "visual_description": "Hibrida T-Rex & Apatosaurus cokelat tanah.",
+      "ability": "Grinding Jaws E",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "3",
+        "min": 3,
+        "max": 3
+      },
+      "effect_description": "Mengunyah musuh. Memberikan 3 Earth Damage dan mengunci pemulihan HP musuh (Trauma) selama 30 detik."
+    },
+    {
+      "no": 81,
+      "id": "brown_pet_tripatosaurus",
+      "element": "Earth",
+      "name": "Brown Pet Tripatosaurus",
+      "visual_description": "Hibrida Triceratops & Apatosaurus cokelat tanah.",
+      "ability": "Defensive Bash E",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "10",
+        "min": 10,
+        "max": 10
+      },
+      "effect_description": "Menundukkan kepala menyundul sebesar 10 Earth Damage lalu memasang perisai pertahanan (Block) selama 7 detik."
+    },
+    {
+      "no": 82,
+      "id": "brown_pet_pterosaurus",
+      "element": "Earth",
+      "name": "Brown Pet Pterosaurus",
+      "visual_description": "Dinosaurus Pterodactyl cokelat tanah bersayap.",
+      "ability": "Critical Strike E",
+      "is_passive": false,
+      "cooldown_sec": 15,
+      "initial_cooldown_sec": 7.5,
+      "base_damage": {
+        "raw": "17",
+        "min": 17,
+        "max": 17
+      },
+      "effect_description": "Jika musuh mencoba Dodge/Block, memberikan ekstra damage +50%. Deals 17 Earth Damage. Unblockable & Undodgeable."
+    },
+    {
+      "no": 83,
+      "id": "brown_pet_triceratops",
+      "element": "Earth",
+      "name": "Brown Pet Triceratops",
+      "visual_description": "Dinosaurus Triceratops cokelat tanah bertanduk tiga.",
+      "ability": "Defensive Gore E",
+      "is_passive": false,
+      "cooldown_sec": 13,
+      "initial_cooldown_sec": 6.5,
+      "base_damage": {
+        "raw": "16",
+        "min": 16,
+        "max": 16
+      },
+      "effect_description": "Menanduk musuh sebesar 16 Earth Damage lalu menahan serangan musuh (Block) selama 4 detik."
+    },
+    {
+      "no": 84,
+      "id": "brown_pet_apatoceratops",
+      "element": "Earth",
+      "name": "Brown Pet Apatoceratops",
+      "visual_description": "Hibrida Apatosaurus & Triceratops cokelat tanah.",
+      "ability": "Dino Charge E",
+      "is_passive": false,
+      "cooldown_sec": 8,
+      "initial_cooldown_sec": 4,
+      "base_damage": {
+        "raw": "14",
+        "min": 14,
+        "max": 14
+      },
+      "effect_description": "Menyeruduk musuh sebesar 14 Earth Damage. Jika melawan musuh elemen Air, damage bertambah +60%."
+    },
+    {
+      "no": 85,
+      "id": "brown_pet_pteratops",
+      "element": "Earth",
+      "name": "Brown Pet Pteratops",
+      "visual_description": "Hibrida Pteranodon & Triceratops cokelat tanah bersayap.",
+      "ability": "Precision Attack E",
+      "is_passive": false,
+      "cooldown_sec": 9,
+      "initial_cooldown_sec": 4.5,
+      "base_damage": {
+        "raw": "11",
+        "min": 11,
+        "max": 11
+      },
+      "effect_description": "Jika musuh mencoba Dodge/Block, damage bertambah +17%. Deals 11 Earth Damage. Unblockable & Undodgeable."
+    },
+    {
+      "no": 86,
+      "id": "brown_pet_pteranodon",
+      "element": "Earth",
+      "name": "Brown Pet Pteranodon",
+      "visual_description": "Dinosaurus Pteranodon cokelat tanah melayang.",
+      "ability": "Precision Strike E",
+      "is_passive": false,
+      "cooldown_sec": 5,
+      "initial_cooldown_sec": 2.5,
+      "base_damage": {
+        "raw": "7",
+        "min": 7,
+        "max": 7
+      },
+      "effect_description": "Jika musuh mencoba Dodge/Block, damage bertambah +25%. Deals 7 Earth Damage. Unblockable & Undodgeable."
+    },
+    {
+      "no": 87,
+      "id": "brown_pet_tyranotops",
+      "element": "Earth",
+      "name": "Brown Pet Tyranotops",
+      "visual_description": "Hibrida T-Rex & Triceratops cokelat tanah bertanduk.",
+      "ability": "Crushing Beak E",
+      "is_passive": false,
+      "cooldown_sec": 13,
+      "initial_cooldown_sec": 6.5,
+      "base_damage": {
+        "raw": "19",
+        "min": 19,
+        "max": 19
+      },
+      "effect_description": "Patukan meremukkan sebesar 19 Earth Damage dan memberikan efek Trauma (mencegah heal) selama 7 detik."
+    },
+    {
+      "no": 88,
+      "id": "brown_pet_tyranodon",
+      "element": "Earth",
+      "name": "Brown Pet Tyranodon",
+      "visual_description": "Hibrida T-Rex & Pteranodon cokelat tanah bersayap.",
+      "ability": "Piercing Jaws E",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "15",
+        "min": 15,
+        "max": 15
+      },
+      "effect_description": "Gigitan menembus. Memberikan 15 Earth Damage dan mencegah target melakukan heal (Trauma) selama 4 detik."
+    },
+    {
+      "no": 89,
+      "id": "brown_pet_apatodon",
+      "element": "Earth",
+      "name": "Brown Pet Apatodon",
+      "visual_description": "Hibrida Apatosaurus & Pteranodon cokelat tanah.",
+      "ability": "Dino Dive E",
+      "is_passive": false,
+      "cooldown_sec": 6,
+      "initial_cooldown_sec": 3,
+      "base_damage": {
+        "raw": "10",
+        "min": 10,
+        "max": 10
+      },
+      "effect_description": "Menukik tajam memberikan 10 Earth Damage. Melawan musuh berelemen Air, memberikan ekstra damage +50%."
+    },
+    {
+      "no": 90,
+      "id": "brown_pet_triceradon",
+      "element": "Earth",
+      "name": "Brown Pet Triceradon",
+      "visual_description": "Hibrida Triceratops & Pteranodon cokelat tanah bertanduk.",
+      "ability": "Defensive Flurry E",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "12",
+        "min": 12,
+        "max": 12
+      },
+      "effect_description": "Menyerang beruntun sebesar 12 Earth Damage lalu memblokir semua serangan (Block) selama 2 detik."
+    },
+    {
+      "no": 91,
+      "id": "zombie_hound",
+      "element": "Earth",
+      "name": "Zombie Hound",
+      "visual_description": "Anjing zombi membusuk berotot dengan spora jamur di tubuhnya.",
+      "ability": "Bursting Spores",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "10",
+        "min": 10,
+        "max": 10
+      },
+      "effect_description": "Gigitan spora zombi. Deals 10 Earth Damage dan menginfeksi target dengan spora yang memberikan 15 damage dalam 6 detik."
+    },
+    {
+      "no": 92,
+      "id": "pineapple_finger_ring",
+      "element": "Earth",
+      "name": "Pineapple Finger Ring",
+      "visual_description": "Cincin jari bertema nanas kayu berduri.",
+      "ability": "Sticky Pineapple Web",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "20",
+        "min": 20,
+        "max": 20
+      },
+      "effect_description": "Jaring nanas lengket. Deals 4 dmg/s selama 5s (total 20 dmg) dan mengunci musuh tidak bisa swap out selama 5 detik."
+    },
+    {
+      "no": 93,
+      "id": "playful_wood_sprite",
+      "element": "Earth",
+      "name": "Playful Wood Sprite",
+      "visual_description": "Peri kayu pohon kecil yang berlari melompat riang.",
+      "ability": "Playtime",
+      "is_passive": false,
+      "cooldown_sec": 15,
+      "initial_cooldown_sec": 7.5,
+      "base_damage": {
+        "raw": "5",
+        "min": 5,
+        "max": 5
+      },
+      "effect_description": "Bermain riang. Memberikan 5 Earth Damage dan memberikan peluang 30% Double Damage selama 4 detik."
+    },
+    {
+      "no": 94,
+      "id": "dryad",
+      "element": "Earth",
+      "name": "Dryad",
+      "visual_description": "Peri pohon mahkota daun anggun melayang di atas akar.",
+      "ability": "Draining Roots",
+      "is_passive": false,
+      "cooldown_sec": 30,
+      "initial_cooldown_sec": 12,
+      "base_damage": {
+        "raw": "30",
+        "min": 30,
+        "max": 30
+      },
+      "effect_description": "Akar penyerap kehidupan. Memberikan 30 Earth Damage dan memberikan efek pemulihan 30 HP/s selama 1 detik."
+    },
+    {
+      "no": 95,
+      "id": "prickly_pet",
+      "element": "Earth",
+      "name": "Prickly Pet",
+      "visual_description": "Makhluk kaktus berduri tajam berwarna hijau.",
+      "ability": "Spikey Shield",
+      "is_passive": false,
+      "cooldown_sec": 15,
+      "initial_cooldown_sec": 7.5,
+      "base_damage": {
+        "raw": "20",
+        "min": 20,
+        "max": 20
+      },
+      "effect_description": "Perisai duri kaktus. Jika diserang dalam durasi 8 detik, membalas memberikan 20 Earth Damage ke penyerang."
+    },
+    {
+      "no": 96,
+      "id": "growmoji_s_little_friend",
+      "element": "Earth",
+      "name": "Growmoji's Little Friend",
+      "visual_description": "Karakter emoji batu cokelat dengan mata bulat lucu dan cakar.",
+      "ability": "Adorable Eyes... and Claw!",
+      "is_passive": false,
+      "cooldown_sec": 40,
+      "initial_cooldown_sec": 12,
+      "base_damage": {
+        "raw": "35",
+        "min": 35,
+        "max": 35
+      },
+      "effect_description": "Menatap lucu lalu mencakar buas. Memberikan 35 Earth Damage dan memaksa musuh melakukan swap out (Forced Swap)."
+    },
+    {
+      "no": 97,
+      "id": "14devil_s_friendly_doggy_leash",
+      "element": "Earth",
+      "name": "14DEViL's Friendly Doggy Leash",
+      "visual_description": "Anjing neraka hitam bertanduk merah bertali ramah.",
+      "ability": "Lockjaw!",
+      "is_passive": false,
+      "cooldown_sec": 12,
+      "initial_cooldown_sec": 6,
+      "base_damage": {
+        "raw": "85",
+        "min": 85,
+        "max": 85
+      },
+      "effect_description": "Gigitan pengunci rahang super buas. Deals 85 Earth Damage. Jika musuh swap dalam 2s, musuh & kawannya kena 40 dmg."
+    },
+    {
+      "no": 98,
+      "id": "unearthly_synthoid",
+      "element": "Earth",
+      "name": "Unearthly Synthoid",
+      "visual_description": "Robot android alien berteknologi gelap futuristik.",
+      "ability": "Unearthly Beam",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "25",
+        "min": 25,
+        "max": 25
+      },
+      "effect_description": "Sinar energi asing. Deals 10 Base Earth Damage + 15 ekstra damage per status negatif pada musuh."
+    },
+    {
+      "no": 99,
+      "id": "captain_bark_royal_captain_bark",
+      "element": "Earth",
+      "name": "Captain Bark / Royal Captain Bark",
+      "visual_description": "Anjing kapten berotot memakai seragam zirah dan mahkota.",
+      "ability": "Supercharge",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Memompa kekuatan penuh. Meningkatkan seluruh serangan berikutnya menjadi jauh lebih mematikan."
+    },
+    {
+      "no": 100,
+      "id": "mechasaurus_rex",
+      "element": "Earth",
+      "name": "Mechasaurus Rex",
+      "visual_description": "Dinosaurus T-Rex cyborg berbaju zirah mesin dan senapan gatling.",
+      "ability": "Ratatatata!",
+      "is_passive": false,
+      "cooldown_sec": 15,
+      "initial_cooldown_sec": 7.5,
+      "base_damage": {
+        "raw": "40",
+        "min": 40,
+        "max": 40
+      },
+      "effect_description": "Rentetan tembakan meriam mesin gatling raksasa sebesar 40 Earth Damage."
+    },
+    {
+      "no": 101,
+      "id": "gingerbread_man",
+      "element": "Earth",
+      "name": "Gingerbread Man",
+      "visual_description": "Manusia kue jahe natal berhiaskan gula warna-warni bertali.",
+      "ability": "Ginger Blast",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "18",
+        "min": 18,
+        "max": 18
+      },
+      "effect_description": "Ledakan manis renyah kue jahe sebesar 18 Earth Damage."
+    },
+    {
+      "no": 102,
+      "id": "diamond_block",
+      "element": "Earth",
+      "name": "Diamond Block",
+      "visual_description": "Blok kristal berlian murni berkilauan keras.",
+      "ability": "Diamond Shield",
+      "is_passive": false,
+      "cooldown_sec": 15,
+      "initial_cooldown_sec": 7.5,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Perisai berlian tak tertembus. Memblokir serangan musuh dan memantulkan sebagian damage."
+    },
+    {
+      "no": 103,
+      "id": "toy_lock_bot",
+      "element": "Earth",
+      "name": "Toy Lock-Bot",
+      "visual_description": "Robot mainan pengunci warna hijau kuning dengan kunci putar.",
+      "ability": "Lockdown",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "17",
+        "min": 17,
+        "max": 17
+      },
+      "effect_description": "Mengunci musuh dan seluruh petnya. Deals 17 Earth Damage dan mengunci tindakan musuh."
+    },
+    {
+      "no": 104,
+      "id": "fiery_dragon_leash",
+      "element": "Fire",
+      "name": "Fiery Dragon Leash",
+      "visual_description": "Naga merah bertanduk dengan sayap kecil berapi yang melayang di udara.",
+      "ability": "Flame Breath",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "24",
+        "min": 24,
+        "max": 24
+      },
+      "effect_description": "Menyemburkan lidah api raksasa. Deals 24 Fire Damage dan membakar target (Burn) sebesar 2 HP/s selama 4 detik."
+    },
+    {
+      "no": 105,
+      "id": "hot_pepper_leash",
+      "element": "Fire",
+      "name": "Hot Pepper Leash",
+      "visual_description": "Cabai merah besar bertali membara dengan percikan api.",
+      "ability": "Spicy Ignite",
+      "is_passive": false,
+      "cooldown_sec": 8,
+      "initial_cooldown_sec": 4,
+      "base_damage": {
+        "raw": "16",
+        "min": 16,
+        "max": 16
+      },
+      "effect_description": "Melempar letupan pedas membara. Deals 16 Fire Damage dan meningkatkan damage serangan Api berikutnya sebesar +20%."
+    },
+    {
+      "no": 106,
+      "id": "phoenix_pendant",
+      "element": "Fire",
+      "name": "Phoenix Pendant",
+      "visual_description": "Liontin emas berbentuk burung Phoenix emas berapi bercahaya.",
+      "ability": "Blazing Rebirth",
+      "is_passive": false,
+      "cooldown_sec": 15,
+      "initial_cooldown_sec": 7.5,
+      "base_damage": {
+        "raw": "20",
+        "min": 20,
+        "max": 20
+      },
+      "effect_description": "Badai api Phoenix sebesar 20 Fire Damage. Jika pet KO dalam 5 detik setelah skill dipakai, bangkit hidup dengan 10% HP."
+    },
+    {
+      "no": 107,
+      "id": "fire_elemental",
+      "element": "Fire",
+      "name": "Fire Elemental",
+      "visual_description": "Bola api menyala dengan mata merah membara mengambang.",
+      "ability": "Inferno Burst",
+      "is_passive": false,
+      "cooldown_sec": 12,
+      "initial_cooldown_sec": 6,
+      "base_damage": {
+        "raw": "28",
+        "min": 28,
+        "max": 28
+      },
+      "effect_description": "Melontarkan bola magma eksplosif sebesar 28 Fire Damage. Serangan ini Unblockable (tidak bisa ditahan perisai/block)."
+    },
+    {
+      "no": 108,
+      "id": "leashed_silkworm_red",
+      "element": "Fire",
+      "name": "Leashed Silkworm - Red",
+      "visual_description": "Ulat sutra merah membara melata di tanah.",
+      "ability": "Death Ray / Heat Wave",
+      "is_passive": false,
+      "cooldown_sec": 13,
+      "initial_cooldown_sec": 6.5,
+      "base_damage": {
+        "raw": "24",
+        "min": 24,
+        "max": 24
+      },
+      "effect_description": "Menembakkan sinar kematian berapi sebesar 24 Fire Damage / Skill Cuaca gelombang panas boost Fire dmg +25%."
+    },
+    {
+      "no": 109,
+      "id": "fire_ants",
+      "element": "Fire",
+      "name": "Fire Ants",
+      "visual_description": "Koloni semut merah berapi melata cepat.",
+      "ability": "Ant Swarm",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "15",
+        "min": 15,
+        "max": 15
+      },
+      "effect_description": "Keroyokan semut api. Memberikan 15 Fire Damage dan memberikan efek terbakar (Burn) 3 Fire damage/s selama 5 detik."
+    },
+    {
+      "no": 110,
+      "id": "red_pet_tyrannosaurus",
+      "element": "Fire",
+      "name": "Red Pet Tyrannosaurus",
+      "visual_description": "Dinosaurus T-Rex merah membara rahang tajam.",
+      "ability": "Crushing Jaws F",
+      "is_passive": false,
+      "cooldown_sec": 16,
+      "initial_cooldown_sec": 8,
+      "base_damage": {
+        "raw": "29",
+        "min": 29,
+        "max": 29
+      },
+      "effect_description": "Gigitan meremukkan. Memberikan 29 Fire Damage dan memberikan efek Trauma (mencegah heal musuh) selama 3 detik."
+    },
+    {
+      "no": 111,
+      "id": "red_pet_apatos_rex",
+      "element": "Fire",
+      "name": "Red Pet Apatos Rex",
+      "visual_description": "Hibrida Apatosaurus & T-Rex merah membara.",
+      "ability": "Dino Chomp F",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "18",
+        "min": 18,
+        "max": 18
+      },
+      "effect_description": "Gigitan dinosaurus. Memberikan 18 Fire Damage. Melawan musuh elemen Earth, mendapat ekstra damage +25%."
+    },
+    {
+      "no": 112,
+      "id": "red_pet_pteranus_rex",
+      "element": "Fire",
+      "name": "Red Pet Pteranus Rex",
+      "visual_description": "Hibrida Pteranodon & T-Rex merah membara bersayap.",
+      "ability": "Precision Crush F",
+      "is_passive": false,
+      "cooldown_sec": 19,
+      "initial_cooldown_sec": 9.5,
+      "base_damage": {
+        "raw": "25",
+        "min": 25,
+        "max": 25
+      },
+      "effect_description": "Jika musuh mencoba Dodge/Block, damage naik +10%. Deals 25 Fire Damage. Unblockable & Undodgeable."
+    },
+    {
+      "no": 113,
+      "id": "red_pet_tricerus_rex",
+      "element": "Fire",
+      "name": "Red Pet Tricerus Rex",
+      "visual_description": "Hibrida Triceratops & T-Rex merah membara bertanduk.",
+      "ability": "Defensive Bite F",
+      "is_passive": false,
+      "cooldown_sec": 18,
+      "initial_cooldown_sec": 9,
+      "base_damage": {
+        "raw": "22",
+        "min": 22,
+        "max": 22
+      },
+      "effect_description": "Menggigit musuh sebesar 22 Fire Damage lalu menahan/mengunci serangan (Block) selama 2 detik."
+    },
+    {
+      "no": 114,
+      "id": "red_pet_apatosaurus",
+      "element": "Fire",
+      "name": "Red Pet Apatosaurus",
+      "visual_description": "Dinosaurus Apatosaurus merah membara berleher panjang.",
+      "ability": "Dino Slam F",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "15",
+        "min": 15,
+        "max": 15
+      },
+      "effect_description": "Terjangan dinosaurus. Memberikan 15 Fire Damage. Melawan musuh elemen Earth, bonus damage +100%."
+    },
+    {
+      "no": 115,
+      "id": "red_pet_tyranopatos",
+      "element": "Fire",
+      "name": "Red Pet Tyranopatos",
+      "visual_description": "Hibrida T-Rex & Apatosaurus merah membara.",
+      "ability": "Grinding Jaws F",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "3",
+        "min": 3,
+        "max": 3
+      },
+      "effect_description": "Mengunyah musuh. Memberikan 3 Fire Damage dan mengunci pemulihan HP musuh (Trauma) selama 30 detik."
+    },
+    {
+      "no": 116,
+      "id": "red_pet_tripatosaurus",
+      "element": "Fire",
+      "name": "Red Pet Tripatosaurus",
+      "visual_description": "Hibrida Triceratops & Apatosaurus merah membara.",
+      "ability": "Defensive Bash F",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "10",
+        "min": 10,
+        "max": 10
+      },
+      "effect_description": "Menundukkan kepala menyundul sebesar 10 Fire Damage lalu memasang perisai pertahanan (Block) selama 7 detik."
+    },
+    {
+      "no": 117,
+      "id": "red_pet_pterosaurus",
+      "element": "Fire",
+      "name": "Red Pet Pterosaurus",
+      "visual_description": "Dinosaurus Pterodactyl merah membara bersayap.",
+      "ability": "Critical Strike F",
+      "is_passive": false,
+      "cooldown_sec": 15,
+      "initial_cooldown_sec": 7.5,
+      "base_damage": {
+        "raw": "17",
+        "min": 17,
+        "max": 17
+      },
+      "effect_description": "Jika musuh mencoba Dodge/Block, memberikan ekstra damage +50%. Deals 17 Fire Damage. Unblockable & Undodgeable."
+    },
+    {
+      "no": 118,
+      "id": "red_pet_triceratops",
+      "element": "Fire",
+      "name": "Red Pet Triceratops",
+      "visual_description": "Dinosaurus Triceratops merah membara bertanduk tiga.",
+      "ability": "Defensive Gore F",
+      "is_passive": false,
+      "cooldown_sec": 13,
+      "initial_cooldown_sec": 6.5,
+      "base_damage": {
+        "raw": "16",
+        "min": 16,
+        "max": 16
+      },
+      "effect_description": "Menanduk musuh sebesar 16 Fire Damage lalu menahan serangan musuh (Block) selama 4 detik."
+    },
+    {
+      "no": 119,
+      "id": "red_pet_apatoceratops",
+      "element": "Fire",
+      "name": "Red Pet Apatoceratops",
+      "visual_description": "Hibrida Apatosaurus & Triceratops merah membara.",
+      "ability": "Dino Charge F",
+      "is_passive": false,
+      "cooldown_sec": 8,
+      "initial_cooldown_sec": 4,
+      "base_damage": {
+        "raw": "14",
+        "min": 14,
+        "max": 14
+      },
+      "effect_description": "Menyeruduk musuh sebesar 14 Fire Damage. Jika melawan musuh elemen Earth, damage bertambah +60%."
+    },
+    {
+      "no": 120,
+      "id": "red_pet_pteratops",
+      "element": "Fire",
+      "name": "Red Pet Pteratops",
+      "visual_description": "Hibrida Pteranodon & Triceratops merah membara bersayap.",
+      "ability": "Precision Attack F",
+      "is_passive": false,
+      "cooldown_sec": 9,
+      "initial_cooldown_sec": 4.5,
+      "base_damage": {
+        "raw": "11",
+        "min": 11,
+        "max": 11
+      },
+      "effect_description": "Jika musuh mencoba Dodge/Block, damage bertambah +17%. Deals 11 Fire Damage. Unblockable & Undodgeable."
+    },
+    {
+      "no": 121,
+      "id": "red_pet_pteranodon",
+      "element": "Fire",
+      "name": "Red Pet Pteranodon",
+      "visual_description": "Dinosaurus Pteranodon merah membara melayang.",
+      "ability": "Precision Strike F",
+      "is_passive": false,
+      "cooldown_sec": 5,
+      "initial_cooldown_sec": 2.5,
+      "base_damage": {
+        "raw": "7",
+        "min": 7,
+        "max": 7
+      },
+      "effect_description": "Jika musuh mencoba Dodge/Block, damage bertambah +25%. Deals 7 Fire Damage. Unblockable & Undodgeable."
+    },
+    {
+      "no": 122,
+      "id": "red_pet_tyranotops",
+      "element": "Fire",
+      "name": "Red Pet Tyranotops",
+      "visual_description": "Hibrida T-Rex & Triceratops merah membara bertanduk.",
+      "ability": "Crushing Beak F",
+      "is_passive": false,
+      "cooldown_sec": 13,
+      "initial_cooldown_sec": 6.5,
+      "base_damage": {
+        "raw": "19",
+        "min": 19,
+        "max": 19
+      },
+      "effect_description": "Patukan meremukkan sebesar 19 Fire Damage dan memberikan efek Trauma (mencegah heal) selama 7 detik."
+    },
+    {
+      "no": 123,
+      "id": "red_pet_tyranodon",
+      "element": "Fire",
+      "name": "Red Pet Tyranodon",
+      "visual_description": "Hibrida T-Rex & Pteranodon merah membara bersayap.",
+      "ability": "Piercing Jaws F",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "15",
+        "min": 15,
+        "max": 15
+      },
+      "effect_description": "Gigitan menembus. Memberikan 15 Fire Damage dan mencegah target melakukan heal (Trauma) selama 4 detik."
+    },
+    {
+      "no": 124,
+      "id": "red_pet_apatodon",
+      "element": "Fire",
+      "name": "Red Pet Apatodon",
+      "visual_description": "Hibrida Apatosaurus & Pteranodon merah membara.",
+      "ability": "Dino Dive F",
+      "is_passive": false,
+      "cooldown_sec": 6,
+      "initial_cooldown_sec": 3,
+      "base_damage": {
+        "raw": "10",
+        "min": 10,
+        "max": 10
+      },
+      "effect_description": "Menukik tajam memberikan 10 Fire Damage. Melawan musuh berelemen Earth, memberikan ekstra damage +50%."
+    },
+    {
+      "no": 125,
+      "id": "red_pet_triceradon",
+      "element": "Fire",
+      "name": "Red Pet Triceradon",
+      "visual_description": "Hibrida Triceratops & Pteranodon merah membara bertanduk.",
+      "ability": "Defensive Flurry F",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "12",
+        "min": 12,
+        "max": 12
+      },
+      "effect_description": "Menyerang beruntun sebesar 12 Fire Damage lalu memblokir semua serangan (Block) selama 2 detik."
+    },
+    {
+      "no": 126,
+      "id": "magma_salamander",
+      "element": "Fire",
+      "name": "Magma Salamander",
+      "visual_description": "Salamander/kadal magma berpijar merah oranye melata.",
+      "ability": "Lava Spit",
+      "is_passive": false,
+      "cooldown_sec": 8,
+      "initial_cooldown_sec": 4,
+      "base_damage": {
+        "raw": "18",
+        "min": 18,
+        "max": 18
+      },
+      "effect_description": "Muntah semburan lava panas. Memberikan 18 Fire Damage dan membakar target 2 Fire damage/s selama 6 detik."
+    },
+    {
+      "no": 127,
+      "id": "flame_sprite_playful_fire_sprite",
+      "element": "Fire",
+      "name": "Flame Sprite / Playful Fire Sprite",
+      "visual_description": "Peri api kecil berkobar menari-nari melayang.",
+      "ability": "Playful Fire / Wildfire",
+      "is_passive": false,
+      "cooldown_sec": 8,
+      "initial_cooldown_sec": 4,
+      "base_damage": {
+        "raw": "15",
+        "min": 15,
+        "max": 15
+      },
+      "effect_description": "Menyebarkan kobaran membara sebesar 15 Fire Damage dan peluang Double Damage."
+    },
+    {
+      "no": 128,
+      "id": "magic_reindeer_bell",
+      "element": "Fire",
+      "name": "Magic Reindeer Bell",
+      "visual_description": "Lonceng natal emas dengan pita merah & rusa kutub bertanduk bercahaya.",
+      "ability": "Glowing Nose",
+      "is_passive": false,
+      "cooldown_sec": 12,
+      "initial_cooldown_sec": 6,
+      "base_damage": {
+        "raw": "10",
+        "min": 10,
+        "max": 10
+      },
+      "effect_description": "Pancaran sinar hidung merah rusa membara. Deals 10 Fire Damage dan membakar musuh."
+    },
+    {
+      "no": 129,
+      "id": "retro_magnifying_glass",
+      "element": "Fire",
+      "name": "Retro Magnifying Glass",
+      "visual_description": "Kaca pembesar bergaya piringan hitam retro dengan sinar lampu disko neon.",
+      "ability": "Disco Fever",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "20",
+        "min": 20,
+        "max": 20
+      },
+      "effect_description": "Menginfeksi musuh untuk menari gila selama 5 detik (4 Fire Damage/s, total 20 damage). Target tidak bisa bertindak."
+    },
+    {
+      "no": 130,
+      "id": "spitfire_mask",
+      "element": "Fire",
+      "name": "Spitfire Mask",
+      "visual_description": "Topi/topeng suku kuno berapi-api dengan mata membara.",
+      "ability": "Spirit Swap",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "10",
+        "min": 10,
+        "max": 10
+      },
+      "effect_description": "Sihir roh api sebesar 10 Fire Damage dan memaksa musuh melakukan swap out (Forced Swap)."
+    },
+    {
+      "no": 131,
+      "id": "lion_taming_whip",
+      "element": "Fire",
+      "name": "Lion Taming Whip",
+      "visual_description": "Cambuk kulit pelatih singa dengan gumpalan api di ujungnya.",
+      "ability": "Claws Out",
+      "is_passive": false,
+      "cooldown_sec": 15,
+      "initial_cooldown_sec": 7.5,
+      "base_damage": {
+        "raw": "35",
+        "min": 35,
+        "max": 35
+      },
+      "effect_description": "Cembangan api buas. Deals 35 Fire Damage ke musuh."
+    },
+    {
+      "no": 132,
+      "id": "dragon_hand",
+      "element": "Fire",
+      "name": "Dragon Hand",
+      "visual_description": "Sarung tangan berbentuk kepala naga merah berapi.",
+      "ability": "Fire Breath",
+      "is_passive": false,
+      "cooldown_sec": 6,
+      "initial_cooldown_sec": 3,
+      "base_damage": {
+        "raw": "3",
+        "min": 3,
+        "max": 3
+      },
+      "effect_description": "Semburan api cepat bertubi-tubi sebesar 3 Fire Damage."
+    },
+    {
+      "no": 133,
+      "id": "fiesta_dragon",
+      "element": "Fire",
+      "name": "Fiesta Dragon",
+      "visual_description": "Naga pinata warna-warni khas festival pesta fiesta.",
+      "ability": "Party Breath",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "10",
+        "min": 10,
+        "max": 10
+      },
+      "effect_description": "Semburan kertas warna-warni berapi sebesar 10 Fire Damage."
+    },
+    {
+      "no": 134,
+      "id": "nightmare_magnifying_glass",
+      "element": "Fire",
+      "name": "Nightmare Magnifying Glass",
+      "visual_description": "Kaca pembesar bernuansa ungu kegelapan aura mimpi buruk.",
+      "ability": "Nightmares",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "10",
+        "min": 10,
+        "max": 10
+      },
+      "effect_description": "Jeratan mimpi buruk. Deals 10 Fire Damage dan mengunci Stun musuh selama 5 detik."
+    },
+    {
+      "no": 135,
+      "id": "dragon_of_legend",
+      "element": "Fire",
+      "name": "Dragon of Legend",
+      "visual_description": "Naga emas legendaris raksasa bersayap megah berkobar.",
+      "ability": "BURNINATE!",
+      "is_passive": false,
+      "cooldown_sec": 40,
+      "initial_cooldown_sec": 12,
+      "base_damage": {
+        "raw": "40",
+        "min": 40,
+        "max": 40
+      },
+      "effect_description": "Semburan api naga legendaris raksasa sebesar 40 Fire Damage."
+    },
+    {
+      "no": 136,
+      "id": "skeletal_dragon_claw",
+      "element": "Fire",
+      "name": "Skeletal Dragon Claw",
+      "visual_description": "Cakar tulang naga purba berapi ungu/hijau.",
+      "ability": "Deathfire",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "10",
+        "min": 10,
+        "max": 10
+      },
+      "effect_description": "Api kematian tulang naga. Deals 10 Fire Damage."
+    },
+    {
+      "no": 137,
+      "id": "phoenix_pacifier",
+      "element": "Fire",
+      "name": "Phoenix Pacifier",
+      "visual_description": "Empeng bayi emas berbentuk burung phoenix berapi.",
+      "ability": "Firestorm",
+      "is_passive": false,
+      "cooldown_sec": 60,
+      "initial_cooldown_sec": 12,
+      "base_damage": {
+        "raw": "64",
+        "min": 64,
+        "max": 64
+      },
+      "effect_description": "Badai api puncaknya phoenix. Deals 64 Fire Damage super dahsyat!"
+    },
+    {
+      "no": 138,
+      "id": "phlogiston",
+      "element": "Fire",
+      "name": "Phlogiston",
+      "visual_description": "Esensi elemen api murni berbentuk kristal membara.",
+      "ability": "Toasties",
+      "is_passive": false,
+      "cooldown_sec": 6,
+      "initial_cooldown_sec": 3,
+      "base_damage": {
+        "raw": "3",
+        "min": 3,
+        "max": 3
+      },
+      "effect_description": "Percikan api pemanggang cepat sebesar 3 Fire Damage."
+    },
+    {
+      "no": 139,
+      "id": "pinata_pal",
+      "element": "Fire",
+      "name": "Pinata Pal",
+      "visual_description": "Keledai pinata warna-warni berisikan petasan & permen.",
+      "ability": "Surprise!",
+      "is_passive": false,
+      "cooldown_sec": 22,
+      "initial_cooldown_sec": 11,
+      "base_damage": {
+        "raw": "50",
+        "min": 50,
+        "max": 50
+      },
+      "effect_description": "Ledakan kejutan pinata sebesar 50 Damage!"
+    },
+    {
+      "no": 140,
+      "id": "hotpants",
+      "element": "Fire",
+      "name": "Hotpants",
+      "visual_description": "Celana pendek merah membara dengan lidah api berkobar.",
+      "ability": "Pepper",
+      "is_passive": false,
+      "cooldown_sec": 3,
+      "initial_cooldown_sec": 1.5,
+      "base_damage": {
+        "raw": "6",
+        "min": 6,
+        "max": 6
+      },
+      "effect_description": "Sengatan pedas cabai membara sebesar 6 Fire Damage dengan cooldown super singkat (3 detik)."
+    },
+    {
+      "no": 141,
+      "id": "pet_fox",
+      "element": "Fire",
+      "name": "Pet Fox",
+      "visual_description": "Rubah oranye cerdik bertali dengan ekor lebat berapi.",
+      "ability": "Desperate Bite",
+      "is_passive": false,
+      "cooldown_sec": 7,
+      "initial_cooldown_sec": 3.5,
+      "base_damage": {
+        "raw": "10",
+        "min": 10,
+        "max": 10
+      },
+      "effect_description": "Gigitan nekat berapi. Deals 10 Fire Damage saat situasi terdesak."
+    },
+    {
+      "no": 142,
+      "id": "battle_mutant_fish",
+      "element": "Water",
+      "name": "Battle Mutant Fish",
+      "visual_description": "Ikan mutan raksasa bermata tiga berevolusi dengan sirip tebal dan gigi tajam membawa lentera air.",
+      "ability": "Acid Spit",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "10 / s (50 total)",
+        "min": 10,
+        "max": 10
+      },
+      "effect_description": "Menyemburkan asam membakar target sebesar 10 Fire Damage per detik selama 5 detik (Total 50 DoT Damage). Suffix/Prefix: 3eyed / spit."
+    },
+    {
+      "no": 143,
+      "id": "ice_calf_leash",
+      "element": "Water",
+      "name": "Ice Calf Leash",
+      "visual_description": "Anak sapi biru es transparan dengan kristal es melayang bertali.",
+      "ability": "Ice Laser",
+      "is_passive": false,
+      "cooldown_sec": 12,
+      "initial_cooldown_sec": 6,
+      "base_damage": {
+        "raw": "15",
+        "min": 15,
+        "max": 15
+      },
+      "effect_description": "Sinar laser es membekukan. Deals 15 Water Damage dan membekukan (Freeze/Stun) target tidak bisa bergerak selama 5 detik penuh."
+    },
+    {
+      "no": 144,
+      "id": "mini_peng",
+      "element": "Water",
+      "name": "Mini-Peng",
+      "visual_description": "Pinguin kerdil imut mengenakan topi pesulap kecil yang meluncur di es.",
+      "ability": "Trick Escape",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Trik meloloskan diri pesulap. Jika diserang dalam 4 detik, hindari serangan (Dodge) dan otomatis swap out ke pet cadangan."
+    },
+    {
+      "no": 145,
+      "id": "polar_bear_leash",
+      "element": "Water",
+      "name": "Polar Bear Leash",
+      "visual_description": "Beruang kutub putih berbulu lebat bertali yang berjalan tegap.",
+      "ability": "Frost Bite",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "18",
+        "min": 18,
+        "max": 18
+      },
+      "effect_description": "Gigitan beku beruang kutub sebesar 18 Water Damage dan membekukan target selama 2 detik."
+    },
+    {
+      "no": 146,
+      "id": "penguin_leash",
+      "element": "Water",
+      "name": "Penguin Leash",
+      "visual_description": "Pinguin hitam-putih imut memakai syal merah meluncur di es.",
+      "ability": "Ice Blast",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "14",
+        "min": 14,
+        "max": 14
+      },
+      "effect_description": "Menembakkan proyektil es beku sebesar 14 Water Damage dan membekukan (Freeze/Stun) target selama 2.5 detik."
+    },
+    {
+      "no": 147,
+      "id": "water_balloon",
+      "element": "Water",
+      "name": "Water Balloon",
+      "visual_description": "Balon transparan berisi air biru jernih membal-membal.",
+      "ability": "Hydro Splash",
+      "is_passive": false,
+      "cooldown_sec": 6,
+      "initial_cooldown_sec": 3,
+      "base_damage": {
+        "raw": "12",
+        "min": 12,
+        "max": 12
+      },
+      "effect_description": "Meletuskan balon air ke wajah lawan. Deals 12 Water Damage dan menghapus seluruh efek Buff positif musuh."
+    },
+    {
+      "no": 148,
+      "id": "baby_turtle",
+      "element": "Water",
+      "name": "Baby Turtle",
+      "visual_description": "Penyu/kura-kura air hijau mungil dengan tempurung keras.",
+      "ability": "Shell Defense",
+      "is_passive": false,
+      "cooldown_sec": 12,
+      "initial_cooldown_sec": 6,
+      "base_damage": {
+        "raw": "8",
+        "min": 8,
+        "max": 8
+      },
+      "effect_description": "Menyerang 8 Water Damage lalu bersembunyi di tempurung, memblokir/menahan 80% damage serangan selama 3 detik."
+    },
+    {
+      "no": 149,
+      "id": "seahorse_companion",
+      "element": "Water",
+      "name": "Seahorse Companion",
+      "visual_description": "Kuda laut biru keemasan melayang menyemprotkan gelembung.",
+      "ability": "Bubble Trap",
+      "is_passive": false,
+      "cooldown_sec": 14,
+      "initial_cooldown_sec": 7,
+      "base_damage": {
+        "raw": "10",
+        "min": 10,
+        "max": 10
+      },
+      "effect_description": "Mengurung musuh dalam gelembung air besar sebesar 10 Water Damage dan mengunci musuh tidak bisa swap selama 6 detik."
+    },
+    {
+      "no": 150,
+      "id": "leashed_silkworm_blue",
+      "element": "Water",
+      "name": "Leashed Silkworm - Blue",
+      "visual_description": "Ulat sutra biru jernih melata di permukaan.",
+      "ability": "Hailstorm",
+      "is_passive": false,
+      "cooldown_sec": 60,
+      "initial_cooldown_sec": 12,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Skill Cuaca (Weather). Hujan es membekukan. Memperlambat kecepatan cooldown skill seluruh pet sebesar +1.5 detik selama 60s."
+    },
+    {
+      "no": 151,
+      "id": "blue_pet_tyrannosaurus",
+      "element": "Water",
+      "name": "Blue Pet Tyrannosaurus",
+      "visual_description": "Dinosaurus T-Rex biru laut rahang tajam.",
+      "ability": "Crushing Jaws W",
+      "is_passive": false,
+      "cooldown_sec": 16,
+      "initial_cooldown_sec": 8,
+      "base_damage": {
+        "raw": "29",
+        "min": 29,
+        "max": 29
+      },
+      "effect_description": "Gigitan meremukkan. Memberikan 29 Water Damage dan memberikan efek Trauma (mencegah heal musuh) selama 3 detik."
+    },
+    {
+      "no": 152,
+      "id": "blue_pet_apatos_rex",
+      "element": "Water",
+      "name": "Blue Pet Apatos Rex",
+      "visual_description": "Hibrida Apatosaurus & T-Rex biru laut.",
+      "ability": "Dino Chomp W",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "18",
+        "min": 18,
+        "max": 18
+      },
+      "effect_description": "Gigitan dinosaurus. Memberikan 18 Water Damage. Melawan musuh elemen Fire, mendapat ekstra damage +25%."
+    },
+    {
+      "no": 153,
+      "id": "blue_pet_pteranus_rex",
+      "element": "Water",
+      "name": "Blue Pet Pteranus Rex",
+      "visual_description": "Hibrida Pteranodon & T-Rex biru laut bersayap.",
+      "ability": "Precision Crush W",
+      "is_passive": false,
+      "cooldown_sec": 19,
+      "initial_cooldown_sec": 9.5,
+      "base_damage": {
+        "raw": "25",
+        "min": 25,
+        "max": 25
+      },
+      "effect_description": "Jika musuh mencoba Dodge/Block, damage naik +10%. Deals 25 Water Damage. Unblockable & Undodgeable."
+    },
+    {
+      "no": 154,
+      "id": "blue_pet_tricerus_rex",
+      "element": "Water",
+      "name": "Blue Pet Tricerus Rex",
+      "visual_description": "Hibrida Triceratops & T-Rex biru laut bertanduk.",
+      "ability": "Defensive Bite W",
+      "is_passive": false,
+      "cooldown_sec": 18,
+      "initial_cooldown_sec": 9,
+      "base_damage": {
+        "raw": "22",
+        "min": 22,
+        "max": 22
+      },
+      "effect_description": "Menggigit musuh sebesar 22 Water Damage lalu menahan/mengunci serangan (Block) selama 2 detik."
+    },
+    {
+      "no": 155,
+      "id": "blue_pet_apatosaurus",
+      "element": "Water",
+      "name": "Blue Pet Apatosaurus",
+      "visual_description": "Dinosaurus Apatosaurus biru laut berleher panjang.",
+      "ability": "Dino Slam W",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "15",
+        "min": 15,
+        "max": 15
+      },
+      "effect_description": "Terjangan dinosaurus. Memberikan 15 Water Damage. Melawan musuh elemen Fire, bonus damage +100%."
+    },
+    {
+      "no": 156,
+      "id": "blue_pet_tyranopatos",
+      "element": "Water",
+      "name": "Blue Pet Tyranopatos",
+      "visual_description": "Hibrida T-Rex & Apatosaurus biru laut.",
+      "ability": "Grinding Jaws W",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "3",
+        "min": 3,
+        "max": 3
+      },
+      "effect_description": "Mengunyah musuh. Memberikan 3 Water Damage dan mengunci pemulihan HP musuh (Trauma) selama 30 detik."
+    },
+    {
+      "no": 157,
+      "id": "blue_pet_tripatosaurus",
+      "element": "Water",
+      "name": "Blue Pet Tripatosaurus",
+      "visual_description": "Hibrida Triceratops & Apatosaurus biru laut.",
+      "ability": "Defensive Bash W",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "10",
+        "min": 10,
+        "max": 10
+      },
+      "effect_description": "Menundukkan kepala menyundul sebesar 10 Water Damage lalu memasang perisai pertahanan (Block) selama 7 detik."
+    },
+    {
+      "no": 158,
+      "id": "blue_pet_pterosaurus",
+      "element": "Water",
+      "name": "Blue Pet Pterosaurus",
+      "visual_description": "Dinosaurus Pterodactyl biru laut bersayap.",
+      "ability": "Critical Strike W",
+      "is_passive": false,
+      "cooldown_sec": 15,
+      "initial_cooldown_sec": 7.5,
+      "base_damage": {
+        "raw": "17",
+        "min": 17,
+        "max": 17
+      },
+      "effect_description": "Jika musuh mencoba Dodge/Block, memberikan ekstra damage +50%. Deals 17 Water Damage. Unblockable & Undodgeable."
+    },
+    {
+      "no": 159,
+      "id": "blue_pet_triceratops",
+      "element": "Water",
+      "name": "Blue Pet Triceratops",
+      "visual_description": "Dinosaurus Triceratops biru laut bertanduk tiga.",
+      "ability": "Defensive Gore W",
+      "is_passive": false,
+      "cooldown_sec": 13,
+      "initial_cooldown_sec": 6.5,
+      "base_damage": {
+        "raw": "16",
+        "min": 16,
+        "max": 16
+      },
+      "effect_description": "Menanduk musuh sebesar 16 Water Damage lalu menahan serangan musuh (Block) selama 4 detik."
+    },
+    {
+      "no": 160,
+      "id": "blue_pet_apatoceratops",
+      "element": "Water",
+      "name": "Blue Pet Apatoceratops",
+      "visual_description": "Hibrida Apatosaurus & Triceratops biru laut.",
+      "ability": "Dino Charge W",
+      "is_passive": false,
+      "cooldown_sec": 8,
+      "initial_cooldown_sec": 4,
+      "base_damage": {
+        "raw": "14",
+        "min": 14,
+        "max": 14
+      },
+      "effect_description": "Menyeruduk musuh sebesar 14 Water Damage. Jika melawan musuh elemen Fire, damage bertambah +60%."
+    },
+    {
+      "no": 161,
+      "id": "blue_pet_pteratops",
+      "element": "Water",
+      "name": "Blue Pet Pteratops",
+      "visual_description": "Hibrida Pteranodon & Triceratops biru laut bersayap.",
+      "ability": "Precision Attack W",
+      "is_passive": false,
+      "cooldown_sec": 9,
+      "initial_cooldown_sec": 4.5,
+      "base_damage": {
+        "raw": "11",
+        "min": 11,
+        "max": 11
+      },
+      "effect_description": "Jika musuh mencoba Dodge/Block, damage bertambah +17%. Deals 11 Water Damage. Unblockable & Undodgeable."
+    },
+    {
+      "no": 162,
+      "id": "blue_pet_pteranodon",
+      "element": "Water",
+      "name": "Blue Pet Pteranodon",
+      "visual_description": "Dinosaurus Pteranodon biru laut melayang.",
+      "ability": "Precision Strike W",
+      "is_passive": false,
+      "cooldown_sec": 5,
+      "initial_cooldown_sec": 2.5,
+      "base_damage": {
+        "raw": "7",
+        "min": 7,
+        "max": 7
+      },
+      "effect_description": "Jika musuh mencoba Dodge/Block, damage bertambah +25%. Deals 7 Water Damage. Unblockable & Undodgeable."
+    },
+    {
+      "no": 163,
+      "id": "blue_pet_tyranotops",
+      "element": "Water",
+      "name": "Blue Pet Tyranotops",
+      "visual_description": "Hibrida T-Rex & Triceratops biru laut bertanduk.",
+      "ability": "Crushing Beak W",
+      "is_passive": false,
+      "cooldown_sec": 13,
+      "initial_cooldown_sec": 6.5,
+      "base_damage": {
+        "raw": "19",
+        "min": 19,
+        "max": 19
+      },
+      "effect_description": "Patukan meremukkan sebesar 19 Water Damage dan memberikan efek Trauma (mencegah heal) selama 7 detik."
+    },
+    {
+      "no": 164,
+      "id": "blue_pet_tyranodon",
+      "element": "Water",
+      "name": "Blue Pet Tyranodon",
+      "visual_description": "Hibrida T-Rex & Pteranodon biru laut bersayap.",
+      "ability": "Piercing Jaws W",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "15",
+        "min": 15,
+        "max": 15
+      },
+      "effect_description": "Gigitan menembus. Memberikan 15 Water Damage dan mencegah target melakukan heal (Trauma) selama 4 detik."
+    },
+    {
+      "no": 165,
+      "id": "blue_pet_apatodon",
+      "element": "Water",
+      "name": "Blue Pet Apatodon",
+      "visual_description": "Hibrida Apatosaurus & Pteranodon biru laut.",
+      "ability": "Dino Dive W",
+      "is_passive": false,
+      "cooldown_sec": 6,
+      "initial_cooldown_sec": 3,
+      "base_damage": {
+        "raw": "10",
+        "min": 10,
+        "max": 10
+      },
+      "effect_description": "Menukik tajam memberikan 10 Water Damage. Melawan musuh berelemen Fire, memberikan ekstra damage +50%."
+    },
+    {
+      "no": 166,
+      "id": "blue_pet_triceradon",
+      "element": "Water",
+      "name": "Blue Pet Triceradon",
+      "visual_description": "Hibrida Triceratops & Pteranodon biru laut bertanduk.",
+      "ability": "Defensive Flurry W",
+      "is_passive": false,
+      "cooldown_sec": 10,
+      "initial_cooldown_sec": 5,
+      "base_damage": {
+        "raw": "12",
+        "min": 12,
+        "max": 12
+      },
+      "effect_description": "Menyerang beruntun sebesar 12 Water Damage lalu memblokir semua serangan (Block) selama 2 detik."
+    },
+    {
+      "no": 167,
+      "id": "robo_shark",
+      "element": "Water",
+      "name": "Robo Shark",
+      "visual_description": "Hiu mekanik cyborg besi futuristik melayang dengan mata laser.",
+      "ability": "Laserbeam!",
+      "is_passive": false,
+      "cooldown_sec": 25,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "35",
+        "min": 35,
+        "max": 35
+      },
+      "effect_description": "Menembakkan sinar laser hiu robotik raksasa sebesar 35 Water Damage. Serangan ini Unblockable."
+    },
+    {
+      "no": 168,
+      "id": "magical_carrot",
+      "element": "Water",
+      "name": "Magical Carrot",
+      "visual_description": "Wortel oranye ajaib memakai topi penyihir biru.",
+      "ability": "That's Cold",
+      "is_passive": false,
+      "cooldown_sec": 12,
+      "initial_cooldown_sec": 6,
+      "base_damage": {
+        "raw": "15",
+        "min": 15,
+        "max": 15
+      },
+      "effect_description": "Sihir dingin membekukan. Memberikan 15 Water Damage dan membekukan (Freeze/Stun) target selama 4 detik penuh."
+    },
+    {
+      "no": 169,
+      "id": "leashed_silkworm_yellow",
+      "element": "Water",
+      "name": "Leashed Silkworm - Yellow",
+      "visual_description": "Ulat sutra kuning melata di tanah.",
+      "ability": "Liquify",
+      "is_passive": false,
+      "cooldown_sec": 20,
+      "initial_cooldown_sec": 10,
+      "base_damage": {
+        "raw": "15",
+        "min": 15,
+        "max": 15
+      },
+      "effect_description": "Semburan cairan pelarut cair sebesar 15 Water Damage."
+    },
+    {
+      "no": 170,
+      "id": "playful_water_sprite",
+      "element": "Water",
+      "name": "Playful Water Sprite",
+      "visual_description": "Peri air kecil transparan menari melayang riang.",
+      "ability": "Playful Water",
+      "is_passive": false,
+      "cooldown_sec": 8,
+      "initial_cooldown_sec": 4,
+      "base_damage": {
+        "raw": "15",
+        "min": 15,
+        "max": 15
+      },
+      "effect_description": "Cipratan air peri sebesar 15 Water Damage dan peluang Double Damage."
+    },
+    {
+      "no": 171,
+      "id": "pet_frog",
+      "element": "Water",
+      "name": "Pet Frog",
+      "visual_description": "Katak hijau kecil bertotol gelap yang duduk jongkok dengan mata bulat menonjol.",
+      "ability": "Spit Mud",
+      "is_passive": false,
+      "cooldown_sec": 12,
+      "initial_cooldown_sec": 6,
+      "base_damage": {
+        "raw": "20",
+        "min": 20,
+        "max": 20
+      },
+      "effect_description": "Meludahkan lumpur ke musuh. Memberikan 20 Water Damage dan membuat seluruh skill musuh recharge 2x lebih lambat selama 5 detik.",
+      "origin": "manual",
+      "note": "Cooldown Awal tidak tercantum di kartu ability; memakai aturan 50% dari cooldown."
+    },
+    {
+      "no": 172,
+      "id": "marshmallow_basket",
+      "element": "Fire",
+      "name": "Marshmallow Basket",
+      "visual_description": "Keranjang anyaman berisi tumpukan marshmallow putih empuk yang sedikit terpanggang.",
+      "ability": "Sugar Rush",
+      "is_passive": false,
+      "cooldown_sec": 60,
+      "initial_cooldown_sec": 12,
+      "base_damage": {
+        "raw": "0",
+        "min": 0,
+        "max": 0
+      },
+      "effect_description": "Ledakan gula. Selama 10 detik, seluruh skill kedua pet milikmu recharge 2x lebih cepat.",
+      "origin": "manual",
+      "note": "Cooldown Awal tidak tercantum di kartu ability; memakai 12 detik seperti skill lain ber-cooldown 60 detik di database."
+    }
+  ],
+  "extras_source": "extra_pets.json"
+}

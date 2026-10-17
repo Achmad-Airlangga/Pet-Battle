@@ -1,0 +1,31 @@
+{
+  "name": "pet-battle-engine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Core game logic engine for a 1:1 Growtopia Pet Battle clone (PRD Step 1)",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "typecheck": "tsc && tsc -p client",
+    "test": "node --test \"tests/**/*.test.ts\"",
+    "simulate": "node scripts/simulate.ts",
+    "import:pets": "node scripts/import-pets.ts",
+    "server": "node src/server/main.ts",
+    "dev:client": "vite",
+    "build:client": "vite build",
+    "start": "npm run build:client && npm run server",
+    "sim": "node scripts/sim-battle.ts",
+    "balance": "node scripts/balance-report.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/ws": "^8.18.2",
+    "typescript": "^5.9.0",
+    "vite": "^6.4.4"
+  },
+  "dependencies": {
+    "ws": "^8.22.0"
+  }
+}

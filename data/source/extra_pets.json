@@ -1,0 +1,29 @@
+{
+  "_comment": "Pets not in growtopia_pet_battle_database.xlsx, added from in-game ability cards. Same columns as the sheet; run `npm run import:pets` after editing. Numbering restarts after the sheet's last row (170), so these are 171+.",
+  "pets": [
+    {
+      "no": 171,
+      "element": "Water",
+      "name": "Pet Frog",
+      "visual_description": "Katak hijau kecil bertotol gelap yang duduk jongkok dengan mata bulat menonjol.",
+      "ability": "Spit Mud",
+      "cooldown": "12s",
+      "initial_cooldown": "6s",
+      "base_damage": "20",
+      "effect_description": "Meludahkan lumpur ke musuh. Memberikan 20 Water Damage dan membuat seluruh skill musuh recharge 2x lebih lambat selama 5 detik.",
+      "note": "Cooldown Awal tidak tercantum di kartu ability; memakai aturan 50% dari cooldown."
+    },
+    {
+      "no": 172,
+      "element": "Fire",
+      "name": "Marshmallow Basket",
+      "visual_description": "Keranjang anyaman berisi tumpukan marshmallow putih empuk yang sedikit terpanggang.",
+      "ability": "Sugar Rush",
+      "cooldown": "60s",
+      "initial_cooldown": "12s",
+      "base_damage": "0",
+      "effect_description": "Ledakan gula. Selama 10 detik, seluruh skill kedua pet milikmu recharge 2x lebih cepat.",
+      "note": "Cooldown Awal tidak tercantum di kartu ability; memakai 12 detik seperti skill lain ber-cooldown 60 detik di database."
+    }
+  ]
+}
