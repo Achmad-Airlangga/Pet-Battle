@@ -18,6 +18,15 @@ npm run server        # terminal 1: server di :8080
 npm run dev:client    # terminal 2: Vite di http://localhost:5173
 ```
 
+## Deploy online (Render)
+
+Game ini butuh server Node yang terus hidup untuk WebSocket, jadi tidak bisa jalan di hosting statis/serverless seperti Vercel. `render.yaml` menyiapkan satu web service di [Render](https://render.com) yang menjalankan server dan menyajikan client dari URL yang sama:
+
+1. Di Render: **New → Blueprint**, pilih repo ini. Render membaca `render.yaml` (build `npm ci && npm run build:client`, start `npm run server`, health check `/health`, Node 22).
+2. Tunggu deploy selesai, lalu buka URL `https://<nama>.onrender.com`.
+
+Paket gratis Render tidur setelah ~15 menit tanpa pengunjung; kunjungan pertama setelahnya butuh sekitar 1 menit untuk bangun.
+
 ## Semua perintah
 
 ```bash

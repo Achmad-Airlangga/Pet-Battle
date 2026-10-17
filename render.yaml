@@ -1,0 +1,14 @@
+# Render Blueprint: one Node web service runs the WebSocket game server and
+# serves the built web client from the same URL (/, /pets, /ws, /health).
+services:
+  - type: web
+    name: pet-battle
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm run build:client
+    startCommand: npm run server
+    healthCheckPath: /health
+    envVars:
+      # The server runs TypeScript directly (Node type stripping needs >= 22.18).
+      - key: NODE_VERSION
+        value: "22"
