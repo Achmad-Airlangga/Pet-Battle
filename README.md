@@ -1,3 +1,13 @@
+---
+title: Pet Battle Arena
+emoji: 🐾
+colorFrom: yellow
+colorTo: blue
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # Pet Battle Clone — Engine, Server, Web Client & Simulasi (PRD Step 1–5)
 
 Clone Pet Battle Growtopia: engine game murni TypeScript, server multiplayer WebSocket, dan web client (Canvas + HUD). Satu-satunya dependency runtime adalah `ws` untuk server.
@@ -17,6 +27,16 @@ Mode development (hot reload client, proxy ke server):
 npm run server        # terminal 1: server di :8080
 npm run dev:client    # terminal 2: Vite di http://localhost:5173
 ```
+
+## Deploy online (Hugging Face Spaces, gratis tanpa kartu)
+
+`Dockerfile` menjalankan server + client dalam satu container di port 7860. Blok YAML di paling atas README ini adalah pengaturan Space (SDK Docker, port 7860).
+
+1. Buat akun di [huggingface.co](https://huggingface.co), lalu **New Space**: pilih SDK **Docker** (template *Blank*), hardware **CPU basic (free)**.
+2. Kirim kode ke Space: `git remote add space https://huggingface.co/spaces/<user>/<nama-space>` lalu `git push space main --force` (login memakai username Hugging Face dan *access token* dengan izin write sebagai password).
+3. Tunggu build selesai (tab *Logs*), lalu buka `https://<user>-<nama-space>.hf.space`.
+
+Space gratis tidur setelah lama tidak dipakai; kunjungan berikutnya membangunkannya lagi.
 
 ## Deploy online (Render)
 
